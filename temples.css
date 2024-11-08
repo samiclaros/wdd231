@@ -1,0 +1,113 @@
+body {
+    font-family: "Pt Sans", sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(13, 104, 156, 0.993);
+    position: relative;
+}
+
+h1 {
+    color: white;
+    padding-left: 2.5rem;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    /* Changes here */
+    right: 20px;
+    top: 0;
+    padding: 0 0 30px 0;
+}
+
+#menu::before {
+    content: "☰";
+    color: rgb(255, 255, 255);
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    /* padding: 1rem; */
+}
+
+.navigation a:hover {
+    color: rgba(13, 104, 156, 0.993);
+    background-color: white;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+nav.open a {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: rgba(13, 104, 156, 0.993);
+    background-color: white;
+}
+
+/* BODY */
+
+main {
+    margin: 1rem auto;
+    display: block;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    justify-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(13, 104, 156, 0.993);
+    margin: 2rem;
+    font-size: 30px;
+    grid-column: 1/-1;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(13, 104, 156, 0.993);
+    color: white;
+    margin-top: 30px;
+    padding: .5px;
+}

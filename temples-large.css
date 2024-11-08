@@ -1,0 +1,90 @@
+@media screen and (min-width: 900px) {
+	body {
+		font-family: "Pt Sans", sans-serif;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	header{
+		display: flex;
+		justify-content: space-evenly;
+		background-color: rgba(13, 104, 156, 0.993);
+	}
+	
+	h1{
+		color: white;
+		text-align: center;
+		align-self: center;
+		/* margin-right: 3.5rem; */
+	}
+	
+	nav{
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 16px;
+		align-self: center;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.navigation a {
+		display: block;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+	
+	nav a:hover{
+		color: rgba(13, 104, 156, 0.993);
+		background-color: white;
+	}
+	
+	/* BODY */
+	
+	h2{
+		font-size: 30px;
+	}
+	
+	main{
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 1800px;
+		justify-items: center;
+	}
+	
+	img{
+		border-radius: 10px;
+	}
+	
+	figcaption{
+		text-align: center;
+		font-size: 20px;
+		margin-top: 1rem;
+	}
+	
+	footer{
+		text-align: center;
+		font-size: 18px;
+		background-color: rgba(13, 104, 156, 0.993);
+		color: white;
+		margin-top: 30px;
+		padding: .5px;
+	}
+	
+}
