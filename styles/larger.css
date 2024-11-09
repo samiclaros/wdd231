@@ -40,7 +40,7 @@
         margin-left: 7rem;
     }
 
-    nav{
+    .navigation{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -48,23 +48,23 @@
         background-color: var(--navBackgroundColor);
     }
 
-    nav a{
+    .navigation a{
+        display: block;
         font-family: "Raleway", serif;
         font-weight: 700;
         text-decoration: none;
-        color: var(--navElementsColor);
         padding: 1rem;
         text-align: center;
+        color: white;
     }
 
-    nav a:hover{
+    .navigation a:hover{
         color: rgb(0, 0, 0);
         background-color: rgba(255, 255, 255, 0.863);
     }
 
-    nav a.active {
+    .navigation a.active {
         color: white;
-        background-color: red;
         border-bottom: 2px solid #be1010; /* Añade un borde para destacar */
     }
 

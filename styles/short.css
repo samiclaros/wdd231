@@ -1,3 +1,5 @@
+@media screen and (max-width: 56.24rem){
+
 :root{
     --backgroundColor: rgb(31, 131, 17);
     --navBackgroundColor: rgba(0, 128, 0, 0.712);
@@ -38,24 +40,17 @@ header h1{
     text-align: center;
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--navBackgroundColor);
+.navigation a {
+    display: none;
+    background-color: var(--backgroundColor);
 }
 
-nav a{
-    font-family: "Raleway", serif;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--navElementsColor);
-    padding: 1rem;
-    text-align: center;
+nav.open .navigation a {
+    display: block;
+    flex-direction: column;
 }
 
-nav a:hover{
+nav.open a:hover{
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.863);
 }
@@ -231,4 +226,5 @@ footer{
 
 footer p {
     padding: 1rem;
+}
 }
