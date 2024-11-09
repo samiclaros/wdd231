@@ -50,6 +50,7 @@
 
     .navigation a{
         display: block;
+        width: 100%;
         font-family: "Raleway", serif;
         font-weight: 700;
         text-decoration: none;
@@ -61,11 +62,13 @@
     .navigation a:hover{
         color: rgb(0, 0, 0);
         background-color: rgba(255, 255, 255, 0.863);
+        width: 100%;
     }
 
     .navigation a.active {
         color: white;
-        border-bottom: 2px solid #be1010; /* Añade un borde para destacar */
+        border-bottom: 3px solid white;
+        border-bottom-style: double;
     }
 
     #menu {
