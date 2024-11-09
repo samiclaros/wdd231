@@ -89,6 +89,7 @@
         grid-column: 1/2;
         border: 1px solid rgb(0, 0, 0, 0.3);
         border-radius: 10px;
+        box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.4), 3px 0px 10px rgba(0, 0, 0, 0.4);
     }
 
     .courseWork h2{
@@ -110,6 +111,7 @@
         align-items: center;
         border: 1px solid rgba(0, 0, 0, 0.3);
         border-radius: 10px;
+        box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.4), 3px 0px 10px rgba(0, 0, 0, 0.4);
     }
 
     .city figure { 
@@ -141,6 +143,7 @@
         margin-top: 1rem;
         border: 1px solid rgba(0, 0, 0, 0.3);
         border-radius: 10px;
+        box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.4), 3px 0px 10px rgba(0, 0, 0, 0.4);
     }
 
     .certificate h2{
