@@ -79,6 +79,7 @@ const courses = [
 ]
 
 createCourseCard(courses);
+updateTotalCredits(courses);
 
 const all = document.querySelector("#all");
 const cse = document.querySelector("#cse");
@@ -86,16 +87,19 @@ const wdd = document.querySelector("#wdd");
 
 all.addEventListener("click", () => {
 	createCourseCard(courses);
+    updateTotalCredits(courses);
 });
 
 cse.addEventListener("click", () => {
 	const cseCourses = courses.filter(course => course.subject === "CSE");
     createCourseCard(cseCourses);
+    updateTotalCredits(cseCourses);
 });
 
 wdd.addEventListener("click", () => {
 	const wddCourses = courses.filter(course => course.subject === "WDD");
 	createCourseCard(wddCourses);
+    updateTotalCredits(wddCourses);
 });
 
 
@@ -117,4 +121,9 @@ function createCourseCard(filteredCourse) {
 		card.appendChild(name);
 		document.querySelector("#coursesContainer").appendChild(card);
 	});
+}
+
+function updateTotalCredits(filteredCourses) {
+    const totalCredits = filteredCourses.reduce((sum, course) => sum += course.credits, 0);
+    document.querySelector("#totalCreditsContainer").textContent = `Total Credits required: ${totalCredits}`;
 }

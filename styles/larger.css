@@ -156,7 +156,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     .courseButtons button{
@@ -166,9 +166,12 @@
         margin-left: 2rem;
         margin-right: 2rem;
         border: 1px solid rgba(0, 0, 0, 0.3);
-        background-color: black;
-        color: white;
+        background-color: var(--navBackgroundColor);
+        color: rgb(255, 255, 255);
         border-radius: 10%;
+        font-family: "Raleway", serif;
+        font-weight: 400;
+        font-size: 1.4rem;
     }
 
     .courses{
@@ -197,6 +200,16 @@
     .wddCourse{
         background-color: var(--backgroundColor);
         color: white;
+    }
+
+    .totalCredits{
+        background-color: var(--backgroundColor);
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        font-size: 1.5rem;
+        margin: 1rem;
+        border-radius: 10px;
     }
 
 
