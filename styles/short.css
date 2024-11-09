@@ -42,7 +42,7 @@ header h1{
 
 .navigation a {
     display: none;
-    background-color: var(--navBackgroundColor);
+    background-color: rgb(28, 92, 28);
 }
 
 nav.open .navigation a {
@@ -178,7 +178,7 @@ main{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    background-color: var(--navBackgroundColor);
+    background-color: rgb(28, 92, 28);
     color: rgb(255, 255, 255);
     border-radius: 10%;
     font-family: "Raleway", serif;
