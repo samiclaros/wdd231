@@ -67,8 +67,7 @@
 
     .navigation a.active {
         color: white;
-        border-bottom: 3px solid white;
-        border-bottom-style: double;
+        border-bottom: 5px solid white;
     }
 
     #menu {
