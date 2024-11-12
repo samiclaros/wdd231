@@ -1,0 +1,24 @@
+{
+    "familyName": "Claros",
+    "dateArrive": "September 21st 2024",
+    "numberOfPeople": 5,
+    "visitedByBishopric": false,
+    "familyMembers": 
+        [
+            {
+                "name": "Eduardo",
+                "gender": "Male",
+                "birthDate": "1990-05-15"
+            },
+            {
+                "name": "Mariana",
+                "gender": "Female",
+                "birthDate": "1999-02-19"
+            },
+            {
+                "name": "Eduardo",
+                "gender": "Male",
+                "birthDate": "2000-03-21"
+            }
+        ]
+}
