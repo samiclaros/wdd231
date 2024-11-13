@@ -14,7 +14,7 @@ const displayProphets = (prophets) => {
     prophets.forEach(prophet => {
         let card = document.createElement("section");
 		let fullName = document.createElement("h2");
-        let portrait = document.creeateElement("img");
+        let portrait = document.createElement("img");
 
 		fullName.textContent = `${prophet.name} ${prophet.lastname}`;
         portrait.setAttribute("src", prophet.imageurl);
@@ -30,4 +30,4 @@ const displayProphets = (prophets) => {
     });
 }
 
-getPropethData();
+getPropethData(url);
