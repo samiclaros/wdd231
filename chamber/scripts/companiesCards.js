@@ -46,7 +46,6 @@ getMembersData(url);
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 gridbutton.addEventListener("click", () => {
 	display.classList.add("grid");
@@ -57,8 +56,3 @@ listbutton.addEventListener("click", () => {
     display.classList.add("list");
     display.classList.remove("grid");
 });
-
-// function showList() {
-// 	display.classList.add("list");
-// 	display.classList.remove("grid");
-// }
