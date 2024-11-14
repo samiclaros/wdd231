@@ -15,7 +15,7 @@ async function getMembersData(url) {
 
 const displayMembers = (members) => {
     // card build code goes here
-    cards.innerHTML = '';
+    display.innerHTML = '';
     members.forEach(member => {
         let card = document.createElement("section");
 		let companyName = document.createElement("h2");
@@ -26,7 +26,7 @@ const displayMembers = (members) => {
         
         
 		companyName.textContent = `${member.name}`;
-        portrait.setAttribute("src", member.image);
+        portrait.setAttribute("src", member.imageUrl);
         portrait.setAttribute("alt", `Ilustration of ${member.name}.`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
@@ -46,6 +46,8 @@ const displayMembers = (members) => {
         cards.appendChild(card);
     });
 }
+
+getMembersData(url);
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
