@@ -117,7 +117,7 @@
         padding: .5rem;
     }
 
-    .buttons { 
+    .menu { 
         display: flex; 
         justify-content: center;
         gap: 1rem;
@@ -132,7 +132,8 @@
     /* GRID */
 
     /* LIST */
-    .list {
+
+    .list{
         display: flex;
         flex-direction: column;
         padding: 1rem;
@@ -142,8 +143,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 4rem;
-        border-bottom: 1px solid #ccc;
+        padding: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         background-color: #e7f6f8;
     }
 
@@ -152,7 +154,7 @@
     }
 
     .list section:nth-child(even) {
-        background-color: #b8e1e6;
+        background-color: rgb(134, 187, 243);
     }
 
     .list h2, .list p, .list a {
@@ -161,8 +163,13 @@
         font-size: 1.2rem;
     }
 
+    .list h2{
+        background-color: transparent;
+        color: black;
+    }
+
     .list a {
-        color: blue;
+        color: var(--backgroundColor);
         text-decoration: underline;
     }
 
