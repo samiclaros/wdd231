@@ -82,6 +82,8 @@
     /* HEADER */
 
     /* MAIN */
+
+    /* GRID */
     .grid, #cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -117,8 +119,8 @@
 
     .menu { 
         display: flex; 
-        justify-content: center; /* Centra horizontalmente los botones */ 
-        gap: 1rem; /* Añade espacio entre los botones */ 
+        justify-content: center;
+        gap: 1rem;
         margin: 2rem;
     }
 
@@ -126,19 +128,46 @@
         border: 1px solid grey;
         border-radius: 15px;
     }
+    
+    /* GRID */
 
-    .list section { 
-        display: flex; flex-direction: column; border-bottom: 1px solid #ccc; padding: 1rem 0;
+    /* LIST */
+    .list {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
     }
 
-    .list h2, .list p, .list a { 
-        display: inline; /* Muestra el contenido en una sola línea */ 
-        margin-right: 1rem;
+    .list section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4rem;
+        border-bottom: 1px solid #ccc;
+        background-color: #e7f6f8;
     }
 
-    .list img { 
-        display: none; /* Oculta las imágenes en la vista de lista */ 
+    .list img{
+        display: none;
     }
+
+    .list section:nth-child(even) {
+        background-color: #b8e1e6;
+    }
+
+    .list h2, .list p, .list a {
+        display: inline;
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+
+    .list a {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    /* LIST */
+
     /* MAIN */
 
     /* FOOTER */
