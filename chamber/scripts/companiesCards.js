@@ -1,16 +1,11 @@
-const url = '../data/members.json';
+const url = 'data/members.json';
 const display = document.querySelector("#cards");
 
 async function getMembersData(url) {
-    try { 
-        const response = await fetch(url); 
-        if (!response.ok) { 
-            throw new Error('Network response was not ok'); 
-        } 
-        const data = await response.json(); 
-        displayMembers(data.members); 
-    } catch (error) { 
-        console.error('Error al obtener los datos:', error);
+    const response = await fetch(url);  
+    const data = await response.json(); 
+    displayMembers(data.members); 
+    console.error('Error al obtener los datos:', error);
 }
 
 const displayMembers = (members) => {
@@ -29,11 +24,11 @@ const displayMembers = (members) => {
         portrait.setAttribute("src", member.imageUrl);
         portrait.setAttribute("alt", `Ilustration of ${member.name}.`);
         portrait.setAttribute("loading", "lazy");
-        portrait.setAttribute("width", "340");
-        portrait.setAttribute("height", "440");
-        adress.textContent = `${member.adress}`;
-        phoneNumbers.textContent = `${member.phoneNumbers}`;
-        website.setAttribute("href", `${member.website}`)
+        portrait.setAttribute("width", "150");
+        portrait.setAttribute("height", "150");
+        adress.textContent = member.address;
+        phoneNumbers.textContent = member.phoneNumbers;
+        website.setAttribute("href", member.website);
         website.textContent = "Website";
 
 
@@ -43,7 +38,7 @@ const displayMembers = (members) => {
         card.appendChild(phoneNumbers);
         card.appendChild(website);
         
-        cards.appendChild(card);
+        display.appendChild(card);
     });
 }
 

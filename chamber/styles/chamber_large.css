@@ -16,7 +16,7 @@
         font-family: "Raleway", serif;
         font-weight: 400;
 		margin: 0 auto;
-		max-width: 1200px;
+		max-width: 1300px;
         background-color: rgb(228, 244, 253);
     }
 
@@ -76,11 +76,63 @@
     }
 
     .navigation a.active {
-        color: white;
         border-bottom: 5px solid white;
     }
 
     /* HEADER */
+
+    /* MAIN */
+    .grid, #cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+
+    #cards section{
+        background-color: rgb(134, 187, 243);
+        text-align: center;
+    }
+
+    .grid h2, #cards h2{
+        color: white;
+        background-color: var(--backgroundColor);
+        text-align: center;
+        padding: 1rem;
+    }
+
+    section p, section a{
+        padding: .5rem;
+        font-size: 1.2rem;
+    }
+
+    section a{
+        padding-bottom: 1rem;
+    }
+    
+    section img{
+        padding: .5rem;
+    }
+
+    .menu { 
+        display: flex; 
+        justify-content: center; /* Centra horizontalmente los botones */ 
+        gap: 1rem; /* Añade espacio entre los botones */ 
+        margin: 2rem;
+    }
+
+    section{
+        border: 1px solid grey;
+        border-radius: 15px;
+    }
+
+    .list section {
+        display: block;
+        width: 100%;
+    }
+    
+    /* MAIN */
 
     /* FOOTER */
     footer{
