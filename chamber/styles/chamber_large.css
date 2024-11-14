@@ -76,7 +76,7 @@
     }
 
     .navigation a.active {
-        border-bottom: 5px solid white;
+        border-bottom: 10px solid white;
     }
 
     /* HEADER */
@@ -127,11 +127,18 @@
         border-radius: 15px;
     }
 
-    .list section {
-        display: block;
-        width: 100%;
+    .list section { 
+        display: flex; flex-direction: column; border-bottom: 1px solid #ccc; padding: 1rem 0;
     }
-    
+
+    .list h2, .list p, .list a { 
+        display: inline; /* Muestra el contenido en una sola línea */ 
+        margin-right: 1rem;
+    }
+
+    .list img { 
+        display: none; /* Oculta las imágenes en la vista de lista */ 
+    }
     /* MAIN */
 
     /* FOOTER */
