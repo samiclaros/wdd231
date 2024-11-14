@@ -1,0 +1,67 @@
+{
+    "members": [
+      {
+        "name": "Ic Norte SA",
+        "address": "Av. D'Orbigni and Claudio Pizarro",
+        "phoneNumbers": "(+591) 83729435 and 4295490",
+        "website": "https://www.icnorte.com/",
+        "image": "https://fastly.4sqi.net/img/general/600x600/11087260_peTDrHatEXU0RkVRqb0c9-d7FCeu2pX3YmT_H1Hict4.jpg",
+        "membershipLevel": 3,
+        "membershipPrivileges": "Gold"
+      },
+      {
+        "name": "Hipermaxi",
+        "address": "Av. Blanco Galindo, north sidewalk. Km 2.5",
+        "phoneNumbers": "(+591) 83462345 and 422481",
+        "website": "https://www.hipermaxi.com/santa-cruz/hipermaxi-roca-y-coronado",
+        "image": "https://informacion.hipermaxi.com/wp-content/uploads/2021/04/supermercados.jpg",
+        "membershipLevel": 2,
+        "membershipPrivileges": "Silver"
+      },
+      {
+        "name": "Supermall",
+        "address": "Av. Blanco Galindo almost Av. Peru, north sidewalk Km 2",
+        "phoneNumbers": "(+591) 94726324 and 4564875",
+        "website": "https://www.facebook.com/supermallcbba/",
+        "image": "https://www.lostiempos.com/sites/default/files/media_imagen/2017/1/4/1_pag6_andiaaaa.jpg",
+        "membershipLevel": 1,
+        "membershipPrivileges": "Member"
+      },
+      {
+        "name": "Homestore S.R.L",
+        "address": "Av. Blanco Galindo. In front of Bridge Viaducto.",
+        "phoneNumbers": "(+591) 78930126 and 4857654",
+        "website": "https://www.homestore.com.bo/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zBiKotACQb2pJIqLcJTQ1OeBDl-W9WEYJQ&s",
+        "membershipLevel": 3,
+        "membershipPrivileges": "Gold"
+      },
+      {
+        "name": "Wistupiku",
+        "address": "Av. Melchor Perez and D'orbigni, southwest sidewalk.",
+        "phoneNumbers": "(+591) 63528392 and 4490021",
+        "website": "https://www.wistupiku.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHnrsiSpecoxFIXUsgHSImmyrBe0C7j3BhA&s",
+        "membershipLevel": 3,
+        "membershipPrivileges": "Gold"
+      },
+      {
+        "name": "Pollos Vizzio's",
+        "address": "Av. Tadeo Haenke, behind the bridge Cobija.",
+        "phoneNumbers": "(+591) 69940345 and 4928724",
+        "website": "https://www.facebook.com/pollos.vizzios/?locale=es_LA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTYCw4j8QOUI9w4rFPwAAdaV1MeFpDnJSMDA&s",
+        "membershipLevel": 2,
+        "membershipPrivileges": "Silver"
+      },
+      {
+        "name": "Hotel Camino Plaza",
+        "address": "V&V, Juan Huallparimachi, Cochabamba",
+        "phoneNumbers": "(+591) 72221505",
+        "website": "https://caminoplaza.com/",
+        "image": "https://caminoplaza.com/Core/img/caminoPlazaLogo.png",
+        "membershipLevel": 3,
+        "membershipPrivileges": "Gold"
+      }
+    ]
+}
