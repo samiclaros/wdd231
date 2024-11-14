@@ -1,0 +1,118 @@
+@media screen and (min-width: 56.25rem){
+    :root{
+        --backgroundColor: rgb(0, 69, 144);
+        --navBackgroundColor: rgba(0, 128, 0, 0.712);
+        --titleColor: rgb(255, 255, 255);
+        --navElementsColor: rgb(255, 255, 255);
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: "Raleway", serif;
+        font-weight: 400;
+		margin: 0 auto;
+		max-width: 1200px;
+        background-color: rgb(228, 244, 253);
+    }
+
+    /* HEADER */
+
+    .main_Header { 
+        display: grid;
+        grid-template-columns: .1fr 1fr 1fr;
+        background-color: var(--backgroundColor);
+    }
+
+    .header_left{
+        align-items: center;
+        align-content: center;
+        padding-left: 1rem;
+        color: white;
+    }
+
+    .header_left h1{
+        font-size: 2.5rem;
+        padding-bottom: .5rem;
+        margin-bottom: 0;
+        margin-top: .5rem;
+    }
+
+    .header_right{
+        align-items: center;
+        align-content: end;
+    }
+
+    .navigation{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .navigation a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: white;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .navigation li{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .navigation a:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+        color: rgb(255, 255, 255);
+    }
+
+    .navigation a.active {
+        color: white;
+        border-bottom: 5px solid white;
+    }
+
+    /* HEADER */
+
+    /* FOOTER */
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--backgroundColor);
+        color: white;
+        padding: 1rem;
+    }
+
+    .info_left h3, .info_left p{
+        padding: .2rem;
+        justify-content: center;
+    }
+
+    .socialMedia_images{
+        text-align: center;
+    }
+
+    .socialMedia_images img{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .info_right{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+    }
+
+    .info_right p{
+        padding: .2rem;
+    }
+    /* FOOTER */
+}

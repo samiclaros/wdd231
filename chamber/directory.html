@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K´ochala Hub</title>
+    <title>K´ochala Chamber of Commerce</title>
     <meta name="description" content="K´ochala - Chamber of Commerce - Directory - WDD231">
     <meta name="author" content="K´ochala - Chamber of Commerce">
     <meta property="og:title" content="K´ochala - Chamber of Commerce - Directory - WDD231">
@@ -19,22 +19,30 @@
     <!-- // Medium 500 -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber_short.css">
+    <link rel="stylesheet" href="styles/chamber_large.css">
+    <script src="scripts/lastModified.js" defer></script>
+    <script src="scripts/burguerButton.js" defer></script>
 </head>
 <body>
     <header>
         <div class="main_Header">
+            <img src="images/logo_ChamberofCommerce.png" alt="K'ochala Chamber of Commerce" width="120" loading="lazy">
             <div class="header_left">
-                <img src="images/logo_ChamberofCommerce.png" alt="K'ochala Chamber of Commerce" width="100" loading="lazy">
                 <h1>K'ochala</h1>
                 <p>Chamber of Commerce</p>
             </div>
             <div class="header_right">
+                <a id="menu" href="#"></a>
                 <nav class="navigation">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Discover</a></li>
+                    <button id="myButton">&#9776</button>
+                    <ul class="menuLinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Discover</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -43,7 +51,7 @@
 
     </main>
     <footer>
-        <div class="info_chamber">
+        <div class="info_left">
             <h3>K'ochala Chamber of Commerce</h3>
             <p>#1869 Av. Blanco Galindo</p>
             <p>Cochabamba, Mali 000</p>
@@ -61,11 +69,11 @@
                 <img src="images/instagram.webp" alt="Instagram" loading="lazy" width="50">
             </a>
         </div>
-        <div class="information">
+        <div class="info_right">
             <p>WDD231 Class Project</p>
             <p>Samuel Alejandro Claros Garcia</p>
             <p>©️ <span id="currentyear"></span> K'ochala Chamber of Commerce</p>
-            <p>Last Modification <span id="lastmodified"></span>.</p>
+            <p id="lastModified"></p>
         </div>
     </footer>
 </body>
