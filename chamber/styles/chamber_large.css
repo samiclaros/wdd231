@@ -22,7 +22,7 @@
 
     /* HEADER */
 
-    .main_Header { 
+    header { 
         display: grid;
         grid-template-columns: .1fr 1fr 1fr;
         background-color: var(--backgroundColor);

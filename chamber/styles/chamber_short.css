@@ -22,9 +22,14 @@
 
     /* HEADER */
 
-    .main_Header { 
+    /* .main_Header { 
         display: grid;
         grid-template-columns: .1fr 1fr 1fr;
+        background-color: var(--backgroundColor);
+    } */
+
+    header{
+        justify-content: center;
         background-color: var(--backgroundColor);
     }
 
@@ -40,6 +45,15 @@
         padding-bottom: .5rem;
         margin-bottom: 0;
         margin-top: .5rem;
+        position: absolute;
+        top: 20px;
+        left: 160px;
+    }
+
+    .header_left p {
+        position: absolute;
+        top: 70px;
+        left: 150px;
     }
 
     /* .header_left p {
@@ -63,7 +77,8 @@
         position: relative; 
         top: 0; /* Ajustar según sea necesario */ 
         width: 100%; 
-        background-color: var(--backgroundColor);
+        background-color: rgb(22, 99, 182);
+        list-style: none;
     }
 
     .navigation a{
@@ -83,6 +98,39 @@
     .navigation a:hover{
         background-color: rgba(0, 0, 0, 0.3);
         color: rgb(255, 255, 255);
+    }
+
+    #menu {
+        font-size: 2.5rem;
+        border: 0;
+        background: none;
+        color: #000;
+        position: absolute;
+        right: 20px;
+        top: 35px;
+        padding: 0 0 30px 0;
+        text-decoration: none;
+    }
+
+    #menu::before {
+        content: "☰";
+        color: rgb(255, 255, 255);
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+    nav.open a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 1rem;
     }
 
     /* MENU */
