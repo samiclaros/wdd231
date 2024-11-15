@@ -80,10 +80,6 @@
         color: white;
     }
 
-    .navigation li{
-        padding: 0.5rem 0;
-    }
-
     .navigation a:hover{
         background-color: rgba(0, 0, 0, 0.3);
         color: rgb(255, 255, 255);
@@ -229,9 +225,8 @@
 
     /* MAIN */
     /* FOOTER */
+
     footer{
-        /* display: grid;
-        grid-template-columns: 1fr 1fr 1fr; */
         background-color: var(--backgroundColor);
         color: white;
         padding: 1rem;
@@ -246,27 +241,3 @@
     footer .socialMedia_images{
         margin-bottom: 2rem;
     }
-
-    /* .info_left h3, .info_left p{
-        padding: .2rem;
-        justify-content: center;
-    }
-
-    .socialMedia_images{
-        text-align: center;
-    }
-
-    .socialMedia_images img{
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-
-    .info_right{
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center;
-    }
-
-    .info_right p{
-        padding: .2rem;
-    } */
