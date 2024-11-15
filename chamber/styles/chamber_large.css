@@ -25,6 +25,10 @@
         background-color: var(--backgroundColor);
     }
 
+    header img{
+        width: 120px;
+    }
+
     .header_left h1{
         position: relative;
         top: -1px;
