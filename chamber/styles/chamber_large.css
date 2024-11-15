@@ -95,6 +95,7 @@
     .grid section{
         background-color: rgb(134, 187, 243);
         text-align: center;
+        min-height: 350px;
     }
 
     .grid h2, .list h2{
@@ -115,6 +116,7 @@
     
     section img{
         padding: .5rem;
+        padding-top: 1rem;
     }
 
     .menu { 
@@ -147,6 +149,7 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         background-color: #e7f6f8;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     }
 
     .list img{
