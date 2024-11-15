@@ -78,6 +78,14 @@
     }
     
     /* GRID */
+    
+    /* LIST */
+
+    .list section{
+        flex-direction: row;
+    }
+
+    /* LIST */
 
     /* MAIN */
 
@@ -90,6 +98,7 @@
         color: white;
         padding: 1rem;
         align-items: center;
+        margin-top: 1rem;
     }
 
     .info_left h3, .info_left p{
