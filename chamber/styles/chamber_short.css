@@ -228,26 +228,82 @@
 
     /* MAIN HOMEPAGE */
 
+    .hero{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
     .hero img{
         width: 100%;
+        height: auto;
+        display: block;
         filter: brightness(65%);
     }
 
     .callToAction{
-        /* position: relative;
-        bottom: 150px;
-        left: 850px; */
-    }
-
-    .callToAction button{
-        font-size: 2.5rem;
-        padding: 1rem;
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+        padding: 1vw 2vw;
         background-color: white;
         color: var(--backgroundColor);
         font-weight: 600;
         border: none;
-        opacity: .8;
+        opacity: 0.8;
         pointer-events: auto;
+    }
+
+    .homeTitle{
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        min-height: 25rem;
+    }
+
+    .events{
+        background-color: rgb(134, 187, 243);
+        min-height: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    .currentWeather{
+        background-color: rgb(134, 187, 243);
+        margin-bottom: 2rem;
+    }
+    
+    .weatherForecast{
+        background-color: rgb(134, 187, 243);
+        margin-bottom: 2rem;
+    }
+
+    .weatherForecast h2, .events h2, .currentWeather h2{
+        text-align: center;
+        padding: .5rem;
+        background-color: var(--backgroundColor);
+        color: white;
+    }
+
+    .currentWeather p{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .weatherForecast p{
+        padding: 1rem;
+        text-align: center;
+        margin-top: 3.5rem;
     }
 
     /* MAIN HOMEPAGE */
