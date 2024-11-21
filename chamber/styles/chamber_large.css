@@ -105,6 +105,15 @@
         min-height: 25rem;
     }
 
+    .currentWeather img{
+        justify-self: center;
+        width: 70%;
+        height: auto;
+        grid-column: 1/2;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
     /* MAIN HOMEPAGE */
 
     /* FOOTER */

@@ -24,6 +24,7 @@
     <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/burguerButton.js" defer></script>
     <script src="scripts/currentPage.js" defer></script>
+    <script src="scripts/openWeather.js" defer></script>
 </head>
 <body>
     <header>
@@ -36,7 +37,7 @@
             <a id="menu" href="#"></a>
             <nav class="navigation">
                 <a href="index.html" class="active">Home</a>
-                <a href="#">Directory</a>
+                <a href="directory.html">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
             </nav>
@@ -45,7 +46,9 @@
     <main>
         <div class="hero">
             <img src="images/heroImage.webp" alt="Palace of Chamber - Cochabamba City" loading="lazy">
-            <button class="callToAction">Tell me more!</button>
+            <a href="join.html">
+                <button class="callToAction">Tell me more!</button>
+            </a>
         </div>
         <h1 class="homeTitle">Home</h1>
         <div class="home">
@@ -55,13 +58,15 @@
             <div class="currentWeather">
                 <h2>Current Weather</h2>
                 <img id="weather-icon" src="" alt="">
-                <p id="temperature"></p>
-                <p id="description"></p>
-                <p>High: <span id="highestTemperature"></span> C°</p>
-                <p>Low: <span id="lowestTemperature"></span> C°</p>
-                <p>Humidity: <span id="humidity"></span>%</p>
-                <p>Sunrise: <span id="sunrise"></span>am</p>
-                <p>Sunset: <span id="sunset"></span>pm</p>
+                <div class="weatherData">
+                    <strong><p id="temperature"></span></p></strong>
+                    <p id="description"></p>
+                    <p>Max: <span id="maxTemperature"></span> C°</p>
+                    <p>Min: <span id="minTemperature"></span> C°</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Sunrise: <span id="sunrise"></span>am</p>
+                    <p>Sunset: <span id="sunset"></span>pm</p>
+                </div>
             </div>
             <div class="weatherForecast">
                 <h2>Weather Forecast</h2>
