@@ -1,7 +1,6 @@
 /* @media screen and (max-width: 56.24rem){ */
     :root{
         --backgroundColor: rgb(0, 69, 144);
-        --navBackgroundColor: rgba(0, 128, 0, 0.712);
         --titleColor: rgb(255, 255, 255);
         --navElementsColor: rgb(255, 255, 255);
     }
@@ -229,7 +228,27 @@
 
     /* MAIN HOMEPAGE */
 
-    
+    .hero img{
+        width: 100%;
+        filter: brightness(65%);
+    }
+
+    .callToAction{
+        position: relative;
+        bottom: 150px;
+        left: 850px;
+    }
+
+    .callToAction button{
+        font-size: 2.5rem;
+        padding: 1rem;
+        background-color: white;
+        color: var(--backgroundColor);
+        font-weight: 600;
+        border: none;
+        opacity: .8;
+        pointer-events: auto;
+    }
 
     /* MAIN HOMEPAGE */
 
