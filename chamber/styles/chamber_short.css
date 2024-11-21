@@ -234,9 +234,9 @@
     }
 
     .callToAction{
-        position: relative;
+        /* position: relative;
         bottom: 150px;
-        left: 850px;
+        left: 850px; */
     }
 
     .callToAction button{
