@@ -288,7 +288,7 @@
         margin-bottom: 2rem;
     }
 
-    .weatherForecast h2, .events h2, .currentWeather h2{
+    .weatherForecast h2, .events h2, .currentWeather h2{ 
         text-align: center;
         padding: .5rem;
         background-color: var(--backgroundColor);
