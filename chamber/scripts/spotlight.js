@@ -27,7 +27,7 @@ function displaySpotlight(members){
         const tagLine = document.createElement('p');
         const img = document.createElement('img');
         const phone = document.createElement('p');
-        const adress = document.createElement('p');
+        const address = document.createElement('p'); 
         const website = document.createElement('a');
         const membershipLevel = document.createElement('p');
 
@@ -39,7 +39,7 @@ function displaySpotlight(members){
         img.setAttribute('src', member.imageUrl);
         img.setAttribute('height', 100);
         phone.textContent = `Phone: ${member.phoneNumbers}`;
-        adress.textContent = `Adress: ${member.address}`;
+        address.textContent = `Address: ${member.address}`;
         website.href = member.website;
         website.textContent = 'Visit Website';
         website.setAttribute('target', '_blank');
@@ -49,7 +49,7 @@ function displaySpotlight(members){
         card.appendChild(tagLine);
         card.appendChild(img);
         card.appendChild(phone);
-        card.appendChild(adress);
+        card.appendChild(address); 
         card.appendChild(website);
         card.appendChild(membershipLevel);
 
@@ -57,4 +57,4 @@ function displaySpotlight(members){
     });
 }   
 
-getMembersData();
+getMembersData(url);
