@@ -329,9 +329,43 @@
 
     .weatherForecast p{
         padding: 1rem;
-        text-align: center;
-        margin-top: 3.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5rem;
+        font-size: 1.2rem;
     }
+
+    /* SPOTLIGHT */
+
+    .spotlight{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1rem;
+        padding: 1rem;
+    }
+
+    .spotlight section{
+        background-color: rgb(134, 187, 243);
+        text-align: center;
+        border: none;
+    }
+
+    .spotlight h2{
+        background-color: var(--backgroundColor);
+        width: 100%;
+        color: white;
+        padding: 1rem;
+    }
+
+    .spotlight p{
+        padding: 1rem;
+    }
+
+    .tagline{
+        font-weight: 800;
+    }
+
+    /* SPOTLIGHT */
 
     /* MAIN HOMEPAGE */
 

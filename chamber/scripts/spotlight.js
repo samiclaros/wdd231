@@ -1,9 +1,9 @@
 const spotlight = document.querySelector("#spotlight");
-const url = 'data/members.json';
+const members = 'data/members.json';
 
-async function getMembersData(url){
+async function getMembersData(members){
     try {
-        const response = await fetch(url);
+        const response = await fetch(members);
         if(response.ok){
             const data = await response.json();
             console.log(data);
@@ -33,11 +33,12 @@ function displaySpotlight(members){
 
         company.textContent = member.name;
         tagLine.textContent = member.offer.toUpperCase();
+        tagLine.setAttribute('class', 'tagline')
         img.setAttribute('alt', 'Company Logo');
         img.setAttribute('class', 'logo');
-        img.setAttribute('width', 100);
+        img.setAttribute('width', 200);
         img.setAttribute('src', member.imageUrl);
-        img.setAttribute('height', 100);
+        img.setAttribute('height', 200);
         phone.textContent = `Phone: ${member.phoneNumbers}`;
         address.textContent = `Address: ${member.address}`;
         website.href = member.website;
@@ -57,4 +58,4 @@ function displaySpotlight(members){
     });
 }   
 
-getMembersData(url);
+getMembersData(members);

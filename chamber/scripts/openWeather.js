@@ -61,7 +61,8 @@ function displayData(data) {
 
 function displayData2(data){
 
-    const convertToDayOfWeek = (dt) => { const date = new Date(dt * 1000); 
+    const convertToDayOfWeek = (dt) => { 
+        const date = new Date(dt * 1000); 
         const options = {weekday: 'long'}; 
         return date.toLocaleDateString('en-US', options); 
     };
@@ -71,7 +72,10 @@ function displayData2(data){
         weatherForecastContainer.removeChild(weatherForecastContainer.lastChild); 
     }
 
-    const days = [data.list[0], data.list[1], data.list[2]]; 
+    const days = [
+        data.list[0], 
+        data.list[8], 
+        data.list[16]]; 
     days.forEach((day, index) => { 
         const dayElement = document.createElement('p'); 
         dayElement.innerHTML = `${convertToDayOfWeek(day.dt)}: ${day.main.temp.toFixed(1)} &deg;C`; 
