@@ -6,7 +6,6 @@ async function getMembersData(members){
         const response = await fetch(members);
         if(response.ok){
             const data = await response.json();
-            console.log(data);
             displaySpotlight(data.members);
         } else {
             throw Error(await response.text());

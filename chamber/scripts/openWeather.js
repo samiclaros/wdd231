@@ -16,7 +16,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayData(data);
         } else {
             throw Error(await response.text());
@@ -31,7 +30,6 @@ async function apiFetch2(){
         const response = await fetch(url2);
         if(response.ok){
             const data = await response.json();
-            console.log(data);
             displayData2(data);
         } else {
             throw Error(await response.text());
