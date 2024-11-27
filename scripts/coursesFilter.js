@@ -120,10 +120,49 @@ function createCourseCard(filteredCourse) {
 
 		card.appendChild(name);
 		document.querySelector("#coursesContainer").appendChild(card);
+
+        card.addEventListener("click", () => {
+            openCourseInfo(course);
+        });
 	});
 }
 
 function updateTotalCredits(filteredCourses) {
     const totalCredits = filteredCourses.reduce((sum, course) => sum += course.credits, 0);
     document.querySelector("#totalCreditsContainer").textContent = `Total Credits required: ${totalCredits}`;
+}
+
+// MODAL PRACTICE
+const courseDetails = document.querySelector("#course-details");
+
+function openCourseInfo(course) {
+    courseDetails.innerHTML = '';
+    const modalH1 = document.createElement("h1");
+    modalH1.innerHTML = `${course.subject} ${course.number}`;
+    const modalH2 = document.createElement("h2");
+    modalH2.innerHTML = `${course.title}`;
+    const modalP1 = document.createElement("p");
+    modalP1.innerHTML = `Credits: ${course.credits}`;
+    const modalP2 = document.createElement("p");
+    modalP2.innerHTML = `${course.description}`;
+    const modalP3 = document.createElement("p");
+    modalP3.innerHTML = `Certificate: ${course.certificate}`;
+    const modalP4 = document.createElement("p");
+    modalP4.innerHTML = `Technologies: ${course.technology.join(", ")}`;
+    const closeModal = document.createElement('button');
+    closeModal.setAttribute('id', 'close-modal');
+    closeModal.innerHTML = "X";
+
+    courseDetails.appendChild(modalH1);
+    courseDetails.appendChild(modalH2);
+    courseDetails.appendChild(modalP1);
+    courseDetails.appendChild(modalP2);
+    courseDetails.appendChild(modalP3);
+    courseDetails.appendChild(modalP4);
+    courseDetails.appendChild(closeModal);
+
+    courseDetails.showModal();
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
 }
