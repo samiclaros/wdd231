@@ -201,6 +201,44 @@ main{
     row-gap: 1rem;
 }
 
+.courseWork a{
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.typewriter-link {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    overflow: hidden;
+    animation: slide-in 2s forwards;
+    max-width: 100%;
+    opacity: 0;
+    text-align: center;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1; 
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
 .courses section{
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.3);

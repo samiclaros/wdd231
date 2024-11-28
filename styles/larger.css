@@ -103,10 +103,40 @@
         border-top-right-radius: 10px;
     }
 
-    .courseWork p{
+    .courseWork a{
+        margin-top: 1.5rem;
+        display: flex;
         padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        padding-left: 2rem;
     }
 
+    .typewriter-link {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 1.2rem;
+        animation: typing 4s steps(40, end), blink-caret 0.75s step-end 2s;
+        max-width: 400px;
+    }
+
+    .typewriter-link a{
+        padding-left: 1rem;
+    }
+    
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+    
+    @keyframes blink-caret {
+        0%, 50% { border-color: #ffffff; } 
+        51%, 100% { border-color: transparent; } 
+    }
+    
     .city { 
         display: flex; 
         flex-direction: column; 
