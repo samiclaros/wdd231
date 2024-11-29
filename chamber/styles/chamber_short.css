@@ -364,6 +364,95 @@
 
     /* MAIN HOMEPAGE */
 
+    /* MAIN JOIN */
+
+    .joinContainer{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+
+    form h2{
+        text-align: center;
+        padding: 1rem;
+        background-color: var(--backgroundColor);
+        color: white;
+    }
+
+    form label{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-family: "Raleway", serif;
+        font-weight: 400;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    }   
+
+    form input:required,
+    form select:required:invalid,
+    form textarea:required:invalid,
+    form input[type="text"]:required:invalid,
+    form input[type="email"]:required:invalid,
+    form input[type="tel"]:required:invalid,
+    form input[type="hidden"]:required:invalid {
+        border-bottom: solid 4px red;
+    }
+
+    form input:required:valid,
+    form select:required:valid,
+    form input[type="text"]:required:valid,
+    form input[type="email"]:required:valid,
+    form input[type="tel"]:required:valid,
+    form input[type="hidden"]:required:valid{
+        border-bottom: solid 4px green;
+    }
+
+    input[type="submit"]{
+        padding: 1rem;
+        background-color: var(--backgroundColor);
+        color: white;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .membershipCards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+    }
+
+    .membershipCards div{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    /* MAIN JOIN */
+
     /* FOOTER */
 
     footer{

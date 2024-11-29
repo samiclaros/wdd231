@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K´ochala Chamber of Commerce - Home Page</title>
+    <meta name="description" content="K´ochala - Chamber of Commerce - Join Us">
+    <meta name="author" content="K´ochala - Chamber of Commerce">
+    <meta property="og:title" content="K´ochala - Chamber of Commerce - Join Us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.duna.cl/media/2014/04/c%C3%A1mara-nacional-de-comercio.jpg">
+    <meta property="og:url" content="https://samiclaros.github.io/wdd231/chamber/join.html">
+    <!-- FavIcon -->
+    <link rel="icon" href="favicon_ChamberofCommerce.ico">
+    <!-- Extra Light 200 -->
+    <!-- Medium 500 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber_short.css">
+    <link rel="stylesheet" href="styles/chamber_large.css">
+    <script src="scripts/currentYear.js" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
+    <script src="scripts/burguerButton.js" defer></script>
+    <script src="scripts/currentPage.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo_ChamberofCommerce.png" alt="K'ochala Chamber of Commerce" width="120" loading="lazy">
+        <div class="header_left">
+            <h1>K'ochala</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div class="header_right">
+            <a id="menu" href="#"></a>
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html" class="active">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+         </div>
+    </header>
+    <main>
+    <div class="joinContainer">
+        <form method="get" action="thankyou.html">
+            <h2>Membership Form</h2>
+            <label for="firstName">First Name:
+                <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="given-name" required>
+            </label>
+            
+            <label for="lastName">Last Name:
+                <input type="text" id="lastName" name="lastName" title="Last Name" autocomplete="family-name" required>
+            </label>
+            
+            <label for="orgTitle">Organizational Title:
+                <input type="text" id="orgTitle" name="orgTitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+            </label>
+            
+            <label for="email">Email Address:
+                <input type="email" id="email" name="email" title="Email Address" autocomplete="email" placeholder="example@email.com" required>
+            </label>
+            
+            <label for="phone">Mobile Phone Number:
+                <input type="tel" id="phone" name="phone" title="Mobile Phone Number" autocomplete="tel" required>
+            </label>
+            
+            <label for="organization">Company/Organization Name:
+                <input type="text" id="organization" name="organization" title="Company/Organization Name" autocomplete="organization" required>
+            </label>
+            
+            <label for="membershipLevel">Membership Level:
+                <select id="membershipLevel" name="membershipLevel" required>
+                    <option value="">Select a Membership...</option>
+                    <option value="NP">NP Membership (no cost)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+            
+            <label for="description">Description:
+                <textarea id="description" name="description" title="Company/Organization Description"></textarea>
+            </label>
+            
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+            <input type="submit" value="Send Membership Request">
+        </form>
+        <div class="membershipCards">
+            <div id="npCard" class="np">
+                <h2>Non Profit Membership</h2>
+                <button id="npInfo" class="npInfo">Learn More</button>
+            </div>
+            <div id="bronzeCard" class="bronze">
+                <h2>Bronze Membership</h2>
+                <button id="bronzeInfo" class="bronzeInfo">Learn More</button>
+            </div>
+            <div id="silverCard" class="silver">
+                <h2>Silver Membership</h2>
+                <button id="silverInfo" class="silverInfo">Learn More</button>
+            </div>
+            <div id="goldCard" class="gold">
+                <h2>Gold Membership</h2>
+                <button id="goldInfo" class="goldInfo">Learn More</button>
+            </div>
+        </div> 
+    </div>
+    </main>
+    <footer>
+        <div class="info_left">
+            <h3>K'ochala Chamber of Commerce</h3>
+            <p>#1869 Av. Blanco Galindo</p>
+            <p>Cochabamba, Bolivia 000</p>
+            <p>info@k'ochala.org</p>
+            <p>(+591) 70350325</p>
+        </div>
+        <div class="socialMedia_images">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook Logo" loading="lazy" width="50">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twiter.webp" alt="Twitter" loading="lazy" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram" loading="lazy" width="50">
+            </a>
+        </div>
+        <div class="info_right">
+            <p>WDD231 Class Project</p>
+            <p>Samuel Alejandro Claros Garcia</p>
+            <p>©️ <span id="currentyear"></span> K'ochala Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
