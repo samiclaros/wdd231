@@ -16,6 +16,14 @@ function show(cup){
     return (result);
 };
 
+function formatTimestamp(timestamp) {
+    const date = new Date(timestamp);
+    return new Intl.DateTimeFormat('en-US', {
+        dateStyle: 'long',
+        timeStyle: 'short',
+    }).format(date);
+}
+
 const showInfo = document.querySelector("#results");
     showInfo.innerHTML = `
         <h2>Thank you for your Application!</h2>
@@ -44,10 +52,11 @@ const showInfo = document.querySelector("#results");
                 <td>Membership Level</td>
                 <td>${show('membershipLevel')}</td>
             </tr>
+            <tr>
+                <td>Date & Time:</td>
+                <td>${formatTimestamp(show('timestamp'))}</td>
+            </tr>
         </table>
     `;
 
-    // <tr>
-    //     <td>Date & Time:</td>
-    //     <td>${formatTimestamp(show('timestamp'))}</td>
-    // </tr>
+    
