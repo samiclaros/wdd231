@@ -76,3 +76,11 @@ function showMembershipInfo(index) {
         membershipDialog.close();    
     });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const timestampField = document.getElementById('timestamp');
+    if (timestampField) {
+        const currentTimestamp = new Date().toISOString();
+        timestampField.value = currentTimestamp;
+    }
+});

@@ -1,23 +1,19 @@
-// FORM
-
 const currentURL = window.location.href;
-
 const everything = currentURL.split('?');
-
 let formData = everything[1].split('&');
 
 function show(cup){
-    let result = ''
+    let result = '';
     formData.forEach((element) => {
         if (element.startsWith(cup)) {
-            result = element.split('=')[1].replace("+"," ").replace("%40","@").replace("%2B","+");
+            result = decodeURIComponent(element.split('=')[1].replace(/\+/g, ' '));
         }
     });
     return (result);
 };
 
 function formatTimestamp(timestamp) {
-    const date = new Date(timestamp);
+    const date = new Date();
     return new Intl.DateTimeFormat('en-US', {
         dateStyle: 'long',
         timeStyle: 'short',
@@ -54,9 +50,9 @@ const showInfo = document.querySelector("#results");
             </tr>
             <tr>
                 <td>Date & Time:</td>
-                <td>${formatTimestamp(show('timestamp'))}</td>
+                <td>${formatTimestamp()}</td>
             </tr>
         </table>
     `;
 
-    
+
