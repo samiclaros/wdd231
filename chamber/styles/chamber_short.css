@@ -368,9 +368,10 @@
 
     .joinContainer{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        justify-self: center;
     }
 
     form{
@@ -452,6 +453,7 @@
         flex-direction: column;
         text-align: center;
         align-self: center;
+        justify-self: center;
     }
 
     .membershipCards div{
@@ -592,6 +594,7 @@
         border-radius: 10px;
         align-self: center;
         justify-self: center;
+        width: 90%;
         max-width: 500px;
     }
 
@@ -603,6 +606,7 @@
     }
 
     .results table{
+        width: 100%;
         padding: 1rem;
         border-collapse: collapse;
     }
@@ -611,10 +615,14 @@
         background-color: var(--backgroundColor);
         color: white;
         font-weight: bold;
+        width: 100%;
     }
 
-    .results table td{
+    .results table tr td{
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     @keyframes spinIn {

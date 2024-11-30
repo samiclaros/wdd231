@@ -29,23 +29,23 @@ const showInfo = document.querySelector("#results");
                 <td>${show('firstName')} ${show('lastName')}</td>
             </tr>
             <tr>
-                <td>Organizational Title</td>
+                <td>Organizational Title:</td>
                 <td>${show('orgTitle')}</td>
             </tr>
             <tr>
-                <td>Email Address</td>
+                <td>Email Address:</td>
                 <td>${show('email')}</td>
             </tr>
             <tr>
-                <td>Mobile Phone Number</td>
+                <td>Mobile Phone Number:</td>
                 <td>${show('phone')}</td>
             </tr>
             <tr>
-                <td>Company/Organization Name</td>
+                <td>Company/Organization Name:</td>
                 <td>${show('organization')}</td>
             </tr>
             <tr>
-                <td>Membership Level</td>
+                <td>Membership Level:</td>
                 <td>${show('membershipLevel')}</td>
             </tr>
             <tr>

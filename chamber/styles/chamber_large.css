@@ -127,14 +127,16 @@
     /* MAIN HOMEPAGE */
 
     /* JOIN FORM */
-    /* JOIN FORM */
 
     .joinContainer{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr 1fr;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        column-gap: 6rem;
     }
+
+    /* JOIN FORM */
 
     /* FOOTER */
 
