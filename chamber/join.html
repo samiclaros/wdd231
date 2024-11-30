@@ -24,6 +24,7 @@
     <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/burguerButton.js" defer></script>
     <script src="scripts/currentPage.js" defer></script>
+    <script src="scripts/join.js" defer></script>
 </head>
 <body>
     <header>
@@ -47,23 +48,23 @@
         <form method="get" action="thankyou.html">
             <h2>Membership Form</h2>
             <label for="firstName">First Name:
-                <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="given-name" required>
+                <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="given-name" placeholder="Samuel.." required>
             </label>
             
             <label for="lastName">Last Name:
-                <input type="text" id="lastName" name="lastName" title="Last Name" autocomplete="family-name" required>
+                <input type="text" id="lastName" name="lastName" title="Last Name"  title="Enter your organizational title (alpha characters, hyphens, and spaces only, minimum 7 characters)" autocomplete="family-name" placeholder="Claros.." required>
             </label>
             
             <label for="orgTitle">Organizational Title:
-                <input type="text" id="orgTitle" name="orgTitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+                <input type="text" id="orgTitle" name="orgTitle" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
             </label>
             
             <label for="email">Email Address:
                 <input type="email" id="email" name="email" title="Email Address" autocomplete="email" placeholder="example@email.com" required>
             </label>
             
-            <label for="phone">Mobile Phone Number:
-                <input type="tel" id="phone" name="phone" title="Mobile Phone Number" autocomplete="tel" required>
+            <label for="phone">Mobile Phone Number (Add the code of the country):
+                <input type="tel" id="phone" name="phone" title="Mobile Phone Number" autocomplete="tel" placeholder="+591 70350325" required>
             </label>
             
             <label for="organization">Company/Organization Name:
@@ -72,7 +73,7 @@
             
             <label for="membershipLevel">Membership Level:
                 <select id="membershipLevel" name="membershipLevel" required>
-                    <option value="">Select a Membership...</option>
+                    <option value="">Select a Membership Level...</option>
                     <option value="NP">NP Membership (no cost)</option>
                     <option value="Bronze">Bronze Membership</option>
                     <option value="Silver">Silver Membership</option>
@@ -105,7 +106,8 @@
                 <h2>Gold Membership</h2>
                 <button id="goldInfo" class="goldInfo">Learn More</button>
             </div>
-        </div> 
+        </div>
+        <dialog id="membershipInfo"></dialog>
     </div>
     </main>
     <footer>
