@@ -24,7 +24,7 @@
     <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/burguerButton.js" defer></script>
     <script src="scripts/currentPage.js" defer></script>
-    <!-- <script src="scripts/calendar.js" defer></script> -->
+    <script src="scripts/discover.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -44,24 +44,38 @@
          </div>
     </header>
     <main>
-        <div class="container">
-            <div class="sidebar">
-                <div class="attractions">
-                    <h2>Attractions</h2>
-                    <p><a href="https://cochabambabolivia.net/atractivos/cristo-de-la-concordia/">El Cristo de la Concordia</a></p>
-                    <p><a href="https://cochabambabolivia.net/atractivos/palacio-portales/">Palacio Portales</a></p>
-                    <p><a href="https://cochabambabolivia.net/atractivos/la-cancha/">La Cancha</a></p>
-                    <p><a href="https://cochabambabolivia.net/atractivos/el-pueblito-en-tupuraya/">El Pueblito</a></p>
+        <div class="containerDiscover">
+            <div class="turism">
+                <h2>Turism</h2>
+                <p><a href="https://www.tripadvisor.es/Attractions-g297315-Activities-Cochabamba_Cochabamba_Department.html">Come see Cochabamba!</a></p>
+            </div>
+            <div class="eventsDiscover">
+                <h2>Future Events</h2>
+                <p><a href="https://cochabambabolivia.net/eventos/feria-de-la-alasita/">Alasita´s - 15-12-2024</a></p>
+                <p><a href="https://cochabambabolivia.net/eventos/festival-de-la-cerveza/">Beer Festival - 20-12-2024</a></p>
+                <p><a href="https://cochabambabolivia.net/eventos/festival-de-la-cancion/">Song Festival - 25-12-2024</a></p>
+                <p><a href="https://cochabambabolivia.net/eventos/festival-de-la-papa/">Potatoe Festival - 29-12-2024</a></p>
+                <p class="eventsCTA">Our members will be part of each event, you can go and discover more of their path and the work they have done! Come with us!</p>
+            </div>
+            <div class="calendar">
+                <div class="calendar-header">
+                    <button id="prevMonth">&lt;</button>
+                    <h2 id="monthYear">December 2024</h2>
+                    <button id="nextMonth">&gt;</button>
                 </div>
-                <div class="eventsDiscover">
-                    <h2>Future Events</h2>
-                    <p><a href="https://cochabambabolivia.net/eventos/feria-de-la-alasita/">Alasita´s</a></p>
-                    <p><a href="https://cochabambabolivia.net/eventos/festival-de-la-cerveza/">Beer Festival</a></p>
-                    <p><a href="https://cochabambabolivia.net/eventos/festival-de-la-cancion/">Song Festival</a></p>
-                    <p><a href="https://cochabambabolivia.net/eventos/festival-de-la-papa/">Potatoe Festival</a></p>
-                    <p class="eventsCTA">Our members will be part of each event, you can go and discover more of their path and the work they have done! Come with us!</p>
+                <div class="calendar-grid" id="calendarGrid">
+                    <div class="day-name">Sun</div>
+                    <div class="day-name">Mon</div>
+                    <div class="day-name">Tue</div>
+                    <div class="day-name">Wed</div>
+                    <div class="day-name">Thu</div>
+                    <div class="day-name">Fri</div>
+                    <div class="day-name">Sat</div>
                 </div>
-                <div id="calendar"></div>
+            </div>
+            <div class="attractions">
+                <h2>Attractions</h2>
+                <div id="attractionsContainer"></div>
             </div>
         </div>
     </main>

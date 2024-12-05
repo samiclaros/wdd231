@@ -138,6 +138,40 @@
 
     /* JOIN FORM */
 
+    /* DISCOVER */
+
+    .containerDiscover{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "turism attractions"
+            "futureEvents attractions"
+            "calendar attractions";
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .turism, .futureEvents, .calendar {
+        max-width: 100%; /* Asegura que los elementos no se estiren más allá del 100% del contenedor */
+        width: auto; /* Ajusta el ancho automáticamente */
+        align-items: center;
+        align-self: center;
+    }
+    
+    .futureEvents {
+        grid-area: futureEvents;
+    }
+    
+    .calendar {
+        grid-area: calendar;
+    }
+    
+    .attractions {
+        grid-area: attractions;
+    }
+
+    /* DISCOVER */
+
     /* FOOTER */
 
     footer{
