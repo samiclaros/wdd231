@@ -184,6 +184,10 @@
         margin-top: 0;
     }
 
+    #attractionsContainer img:hover{
+        transform: scale(1.05);
+    }
+
     /* DISCOVER */
 
     /* FOOTER */
