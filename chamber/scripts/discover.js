@@ -94,3 +94,7 @@ function renderAttractions() {
 }
 
 renderAttractions();
+
+// Attraction cards
+
+// VISITS or LocalStorage
