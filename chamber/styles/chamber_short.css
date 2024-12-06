@@ -644,10 +644,20 @@
     .containerDiscover{
         display: grid;
         grid-template-areas: 
+        "visits"
         "turism"
         "futureEvents"
         "calendar"
         "attractions";
+    }
+
+    #visits{
+        grid-area: visits;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
     }
 
     .calendar {
@@ -717,16 +727,30 @@
 
     .turism{
         grid-area: turism;
+        margin-bottom: 2rem;
+    }
+
+    .turism p{
+        min-height: 200px;
+        align-content: center;
+    }
+
+    .turism p a, .eventsDiscover p a{
+        font-size: 1.5rem;
     }
 
     .eventsDiscover{
         grid-area: futureEvents;
     }
 
+    .eventsDiscover p{
+        min-height: 100px;
+        align-content: center;
+    }
+
     .turism h2, .eventsDiscover h2, .attractions h2{
         background-color: var(--backgroundColor);
         color: white;
-        margin-top: 2rem;
         padding: 1.2rem;
         text-align: center;
     }
@@ -736,7 +760,7 @@
         color: black;
         padding: 1rem;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .turism p:hover, .eventsDiscover p:hover{
@@ -745,7 +769,7 @@
 
     .eventsCTA{
         font-weight: bold;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
     .calendar{

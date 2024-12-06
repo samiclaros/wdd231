@@ -144,6 +144,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
+            "visits visits"
             "turism attractions"
             "futureEvents attractions"
             "calendar attractions";
@@ -151,23 +152,36 @@
         padding: 1rem;
     }
 
-    .turism, .futureEvents, .calendar {
-        max-width: 100%; /* Asegura que los elementos no se estiren más allá del 100% del contenedor */
-        width: auto; /* Ajusta el ancho automáticamente */
-        align-items: center;
+    .turism, .eventsDiscover, .calendar {
+        max-width: 100%;
+        width: auto;
+    }
+
+    .turism {
+        grid-area: turism;
         align-self: center;
     }
     
-    .futureEvents {
+    .eventsDiscover {
         grid-area: futureEvents;
+        align-self: center;
     }
     
     .calendar {
         grid-area: calendar;
+        align-self: center;
     }
     
     .attractions {
         grid-area: attractions;
+    }
+
+    .turism h2, .eventsDiscover h2, .attractions h2{
+        background-color: var(--backgroundColor);
+        color: white;
+        padding: 1.2rem;
+        text-align: center;
+        margin-top: 0;
     }
 
     /* DISCOVER */
