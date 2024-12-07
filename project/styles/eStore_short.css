@@ -1,0 +1,73 @@
+:root{
+    --backgroungHaF1: #283e06;
+    --backgroungHaF2: #2f4f5e;
+    --title: #ffffff;
+    --subTitle1: #283e06;
+    --subTitle2: #2f4f5e;
+    --text1: #000000;
+    --text2: #ffffff;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.sitename{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: "Unbounded", sans-serif;
+    background-color: var(--backgroungHaF1);
+    color: white;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.secondOption{
+    background-color: var(--backgroungHaF2);
+    color: white;
+    margin-top: 0;
+}
+
+main h1, main h2{
+    max-width: 50rem;
+    margin-top: 2rem;
+}
+
+main p, main ul, main ol, main h3{
+    max-width: 50rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+}
+
+main h3{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--backgroungHaF1);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+main img{
+    max-width: 50rem;
+    display: block;
+    margin: 0 auto;
+}
