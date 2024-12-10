@@ -11,7 +11,7 @@
 *{
     padding: 0;
     box-sizing: border-box;
-    max-width: 100rem;
+    max-width: 90rem;
     margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body{
 
 h1, h2{
     font-family: "Unbounded", sans-serif;
-    background-color: var(--backgroungHaF1);
+    background-color: var(--backgroungHaF2);
     color: white;
     padding: 2rem;
     margin-top: 0;
@@ -37,37 +37,9 @@ h1, h2{
     text-align: center;
 }
 
-.secondOption{
-    background-color: var(--backgroungHaF2);
-    color: white;
-    margin-top: 0;
-}
-
-main h1, main h2{
-    max-width: 50rem;
-    margin-top: 2rem;
-}
-
-main p, main ul, main ol, main h3{
-    max-width: 50rem;
-    font-size: 1.2rem;
-    padding: 1rem;
-    padding-top: 1.5rem;
-}
-
-main h3{
-    text-decoration: underline;
-}
-
-footer{
-    background-color: var(--backgroungHaF1);
-    color: white;
-    padding: 2rem;
-    text-align: center;
-}
-
-main img{
-    max-width: 50rem;
+.hero img{
+    width: 100%;
     display: block;
-    margin: 0 auto;
+    filter: brightness(95%);
+    margin-top: 2rem;
 }
