@@ -23,20 +23,26 @@ body{
 header{
     justify-content: center;
     background-color: var(--backgroungHaF2);
+    position: relative;
 }
 
 .header_left{
     align-items: center;
     align-content: center;
-    padding-left: 1rem;
     color: white;
 }
 
 .header_left h1{
     margin-top: .5rem;
     position: absolute;
-    top: 15px;
+    top: 7px;
     left: 80px;
+}
+
+.header_left p{
+    position: absolute;
+    top: 50px;
+    left: 120px;
 }
 
 header img{
@@ -86,7 +92,7 @@ header img{
     color: #000;
     position: absolute;
     right: 3%;
-    top: 2.7%;
+    top: 27%;
     padding: 0 0 30px 0;
     text-decoration: none;
 }
@@ -123,7 +129,7 @@ a {
 .phraseContainer{
     position: absolute;
     top: 15%;
-    left: 4%;
+    left: 7%;
     font-size: .7rem;
 }
 
@@ -140,11 +146,12 @@ a {
 
 .customer {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "deliveryImg deliveryText"
         "creditCardText creditCardImg"
         "guaranteeImg guaranteeText";
-    gap: 1rem;
+    row-gap: 1rem;
     align-items: center;
     text-align: justify;
     padding-left: 1rem;
@@ -245,6 +252,50 @@ a {
     width: 63%;
 }
 
+/* MODAL */
+
+dialog{
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: .25rem;
+    padding: 2rem;
+    background-color: rgb(221, 221, 221);
+    width: 90%;
+    max-width: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+dialog h2{
+    text-align: left;
+    width: 80%;
+    margin-left: 0;
+}
+
+dialog h3{
+    margin-top: .5rem;
+}
+
+dialog p{
+    padding-top: 1rem;
+}
+
+::backdrop{
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog button{
+    position: absolute;
+    bottom: 85%;
+    right: 3%;
+    padding: .5rem 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    background-color: rgb(255, 255, 255) ;
+}
+
+/* MODAL */
 /* BLACKFRIDAY */
 
 /* MAIN */
