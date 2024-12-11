@@ -18,28 +18,125 @@
 body{
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
-    margin: 0 auto;
 }
 
-.sitename{
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-h1, h2{
-    font-family: "Unbounded", sans-serif;
+header{
+    justify-content: center;
     background-color: var(--backgroungHaF2);
+}
+
+.header_left{
+    align-items: center;
+    align-content: center;
+    padding-left: 1rem;
     color: white;
-    padding: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
+}
+
+.header_left h1{
+    margin-top: .5rem;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+header img{
+    width: 80px;
+}
+
+.header_right{
+    align-items: center;
+    align-content: end;
+}
+
+.navigation{
+    display: none;
+}
+
+.navigation.open{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    top: 0;
+    width: 100%; 
+    background-color: var(--backgroungHaF2);
+    list-style: none;
+}
+
+.navigation a{
+    display: block;
+    padding: 1rem;
+    width: 100%;
     text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    right: 3%;
+    top: 2.7%;
+    padding: 0 0 30px 0;
+    text-decoration: none;
+}
+
+#menu::before {
+    content: "☰";
+    color: rgb(255, 255, 255);
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+nav.open a {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* MAIN */
+
+/* HERO */
+
+.hero{
+    position: relative;
+}
+
+.phraseContainer{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    font-size: .7rem;
+}
+
+.authorPhrase{
+    margin-top: .5rem;
 }
 
 .hero img{
     width: 100%;
-    display: block;
-    filter: brightness(95%);
-    margin-top: 2rem;
+    height: auto;
 }
+
+/* HERO */
+
+
+/* MAIN */

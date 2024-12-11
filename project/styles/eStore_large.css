@@ -1,3 +1,16 @@
 @media screen and (min-width: 56.25rem){
 
+    :root{
+        --backgroungHaF1: #283e06;
+        --backgroungHaF2: #2f4f5e;
+        --title: #ffffff;
+        --subTitle1: #283e06;
+        --subTitle2: #2f4f5e;
+        --text1: #000000;
+        --text2: #ffffff;
+    }
+
+    header img{
+        width: 200px;
+    }
 }
