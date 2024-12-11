@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Project Site Plan - Essential</title>
-    <meta name="description" content="Project Site Plan">
+    <title>Essential - Clothes Store</title>
+    <meta name="description" content="Essential Clothes Store / Missionary Clothes with 100% quality!">
     <meta name="author" content="Samuel Alejandro Claros Garcia">
-    <meta property="og:title" content="Project Site Plan - WDD 231">
+    <meta property="og:title" content="Essential Clothes Store - For future LDS Missionaries">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://img.freepik.com/fotos-premium/tienda-trajes-interiores-boutique-vestimenta-negocios-hombres-ai_894067-8953.jpg">
-    <meta property="og:url" content="https://samiclaros.github.io/wdd231/project/siteplan.html">
+    <meta property="og:url" content="https://samiclaros.github.io/wdd231/project/index.html">
     <!-- FavIcon -->
     <link rel="icon" href="icon.ico">
     <!-- // TITLES -->
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="styles/eStore_large.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts/burguerButton.js" defer></script>
+    <script src="scripts/home.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -51,17 +52,17 @@
             </div>
         </div>
         <div class="customer">
-            <img src="images/delivery.webp" alt="Delivery Service" loading="lazy">
-            <p>We offer delivery in your first purchase, 1 to 3 days to arrive.</p>
-            <img src="images/creditCard.webp" alt="Credit Card Payment Method" loading="lazy">
-            <p>We have credit car payment method. Even QR service.</p>
-            <img src="images/sales.webp" alt="Guaranteed guarantee" loading="lazy">
-            <p>Product originality is guaranteed.</p>
+            <img src="images/delivery.webp" alt="Delivery Service" loading="lazy" class="deliveryImg">
+            <p class="deliveryText">We offer delivery in your first purchase, 1 to 3 days to arrive.</p>
+            <img src="images/creditCard.webp" alt="Credit Card Payment Method" loading="lazy" class="creditCardImg">
+            <p class="creditCardText">We have credit car payment method. Even QR service.</p>
+            <img src="images/sales.webp" alt="Guaranteed guarantee" loading="lazy" class="guaranteeImg">
+            <p class="guaranteeText">Product originality is guaranteed.</p>
         </div>
         <div class="blackFriday" id="blackFriday"></div>
-        <div class="persons" id="persons"></div>
+        <div class="model" id="model"></div>
         <dialog id="salesDetails"></dialog>
-        <button><a href="store.html">Shop Now!</a></button>
+        <button class="ctaHome"><a href="store.html">Shop Now!</a></button>
     </main>
     <footer>
         <div class="info_left">

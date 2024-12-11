@@ -138,5 +138,133 @@ a {
 
 /* HERO */
 
+.customer {
+    display: grid;
+    grid-template-areas:
+        "deliveryImg deliveryText"
+        "creditCardText creditCardImg"
+        "guaranteeImg guaranteeText";
+    gap: 1rem;
+    align-items: center;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+.deliveryImg, .creditCardImg, .guaranteeImg {
+    width: 40%;
+    height: auto;
+}
+
+.deliveryText, .creditCardText, .guaranteeText {
+    font-size: .7rem;
+}
+
+.deliveryImg {
+    grid-area: deliveryImg;
+}
+
+.deliveryText {
+    grid-area: deliveryText;
+}
+
+.creditCardText {
+    grid-area: creditCardText;
+}
+
+.creditCardImg {
+    grid-area: creditCardImg;
+}
+
+.guaranteeImg {
+    grid-area: guaranteeImg;
+}
+
+.guaranteeText {
+    grid-area: guaranteeText;
+}
+
+/* BLACKFRIDAY */
+
+.blackFriday{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.blackFriday p{
+    font-size: 1.2rem;
+}
+
+.model{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.model section{
+    margin-top: 3rem;
+}
+
+.model section { 
+    position: relative; 
+    display: inline-block;
+} 
+
+.model img { 
+    display: block; 
+} 
+
+.model button { 
+    position: absolute; 
+    bottom: 0px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100%;
+    height: 20%;
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0); 
+    padding: .5rem 1rem; 
+    border: none; 
+    cursor: pointer; 
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.ctaHome{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: var(--backgroungHaF2);
+    border: none;
+    width: 63%;
+}
+
+/* BLACKFRIDAY */
 
 /* MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: var(--backgroungHaF2);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer .info_left{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+footer .socialMedia_images{
+    margin-bottom: 2rem;
+}
+
+/* FOOTER */
