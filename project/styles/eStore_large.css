@@ -70,6 +70,11 @@
 
     /* HEADER */
 
+    .hero{
+        background-color: #f3f3f3;
+        overflow: hidden;
+    }
+
     .phraseContainer{
         font-size: 1.7rem;
     }

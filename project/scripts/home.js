@@ -48,7 +48,7 @@ function displayblackFriday() {
         img.setAttribute('alt', info.name);
         img.setAttribute('loading', 'lazy');
         img.setAttribute("width", "200");
-        img.setAttribute("height", "auto");
+        img.setAttribute("height", "330");
         h2.textContent = `TOP DISCOUNTS!`;
         discount.textContent = info.discount;
     
@@ -79,7 +79,7 @@ function displayModel() {
         img.setAttribute('alt', info.name);
         img.setAttribute('loading', 'lazy');
         img.setAttribute("width", "200");
-        img.setAttribute("height", "auto");
+        img.setAttribute("height", "333");
 
         button.textContent = "View Details";
         button.addEventListener('click', () => {
