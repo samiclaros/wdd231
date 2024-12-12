@@ -104,6 +104,9 @@ header img{
 
 #menu.open::before {
     content: "X";
+    position: absolute;
+    bottom: 40px;
+    right: 3%;
 }
 
 nav.open a {
@@ -126,11 +129,15 @@ a {
     position: relative;
 }
 
+.phrase{
+    font-size: 1.1rem;
+}
+
 .phraseContainer{
     position: absolute;
     top: 15%;
     left: 7%;
-    font-size: .7rem;
+    font-size: 1.1rem;
 }
 
 .authorPhrase{
@@ -165,7 +172,7 @@ a {
 }
 
 .deliveryText, .creditCardText, .guaranteeText {
-    font-size: .7rem;
+    font-size: 1rem;
 }
 
 .deliveryImg {
