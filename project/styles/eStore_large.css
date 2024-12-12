@@ -21,7 +21,7 @@
 
     header img{
         width: 150px;
-        margin-left: 6rem;
+        margin-left: 5rem;
     }
     
     .header_right{
@@ -30,13 +30,13 @@
 
     .header_left h1{
         top: 35px;
-        left: 300px;
+        left: 280px;
         font-size: 2.5rem;
     }
 
     .header_left p {
         top: 90px;
-        left: 300px;
+        left: 280px;
         font-size: 1.2rem;
     }
 
@@ -89,6 +89,105 @@
     .deliveryText, .creditCardText, .guaranteeText {
         font-size: 1.2rem;
         padding: 1rem;
+    }
+
+    .blackFriday{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .blackFriday h2{
+        grid-column: 1/4;
+    }
+
+    .blackFriday img{
+        width: 270px;
+    }
+    
+    .blackFriday p{
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    
+    .model{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .model h2{
+        grid-column: 1/4;
+    }
+
+    .model img{
+        width: 270px;
+    }
+    
+    .model img { 
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    .model button{
+        transition: transform 0.3s ease;
+    }
+
+    .model section:hover img{
+        transform: scale(1.1);
+    }
+
+    .model section:hover button { 
+        transform: translateX(-50%) scale(1.1);
+    }
+
+    .model section{
+        overflow: hidden;
+    }
+    
+    .ctaHome{
+        width: 30%;
+        height: 90px;
+        font-weight: bold;
+        font-size: 2rem;
+        justify-content: center;
+    }
+    
+    /* MODAL */
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .info_left h3, .info_left p{
+        padding: .2rem;
+        padding-left: 5rem;
+        align-items: center;
+    }
+
+    .socialMedia_images{
+        text-align: center;
+    }
+
+    .socialMedia_images img{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .info_right{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        text-align: right;
+        padding-right: 5rem;
+    }
+
+    .info_right p{
+        padding: .2rem;
     }
     
 }
