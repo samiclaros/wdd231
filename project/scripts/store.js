@@ -26,7 +26,7 @@ hamButton.addEventListener('click', () => {
 
 // Buttons CARDS
 
-const url = 'data/products.json';
+const url = '../data/products.json';
 const clothesContainer = document.querySelector("#clothesContainer");
 const buttons = document.querySelectorAll(".menu button");
 
