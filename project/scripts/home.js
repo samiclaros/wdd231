@@ -78,7 +78,7 @@ function displayModel() {
         img.setAttribute('src', info.model);
         img.setAttribute('alt', info.name);
         img.setAttribute('loading', 'lazy');
-        img.setAttribute("width", "200");
+        img.setAttribute("width", "270");
         img.setAttribute("height", "333");
 
         button.textContent = "View Details";

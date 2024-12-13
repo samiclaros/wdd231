@@ -20,6 +20,11 @@ body{
     font-weight: 400;
 }
 
+body{
+    border-right: 2px solid var(--backgroungHaF2);
+    border-left: 2px solid var(--backgroungHaF2);
+}
+
 header{
     justify-content: center;
     background-color: var(--backgroungHaF2);
@@ -313,6 +318,60 @@ dialog button{
 /* MODAL */
 
 /* MAIN */
+
+/* STORE */
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.menu button{
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    background-color: var(--backgroungHaF2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#clothesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#clothesContainer img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 500px;
+    margin-top: 1.5rem;
+}
+
+#clothesContainer h2{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+#clothesContainer section{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+#clothesContainer p{
+    font-size: 1.3rem;
+}
+
+/* STORE */
 
 /* FOOTER */
 

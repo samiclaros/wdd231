@@ -166,6 +166,31 @@
         font-size: 2rem;
         justify-content: center;
     }
+
+    /* STORE */
+
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-top: 4rem;
+    }
+
+    #clothesContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem;
+    }
+
+    #clothesContainer img{
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    /* STORE */
     
     /* MODAL */
 

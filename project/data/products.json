@@ -1,0 +1,202 @@
+{
+    "pants": [
+        {
+            "image": "./images/pants1.webp",
+            "title": "Classic Pants",
+            "price": "30.00",
+            "colors": ["Grey", "Blue", "Black"],
+            "description": "Crafted from durable fabric, these Classic Grey Pants are built to withstand long walks and daily wear. Resistant to fading, shrinking, and tearing, they maintain their shape and color even after exposure to the sun. Available in red, blue, and black, they offer comfort and longevity for any occasion.",
+            "warranty": "1-year warranty. If any defects are found, we will replace or refund the item."
+        },
+        {
+            "image": "./images/pants2.webp",
+            "title": "Eco-Friendly Pants",
+            "price": "35.00",
+            "colors": ["Blue", "Black"],
+            "description": "The Eco-Friendly Blue Pants are designed to endure daily activities, offering resistance against wear, fading, and damage from sunlight. Made from sustainable materials, these pants maintain their shape and color even after extensive use. Available in green and yellow, they combine eco-consciousness with durability.",
+            "warranty": "1-year warranty. Any manufacturing defects will be covered by a replacement or refund."
+        },
+        {
+            "image": "./images/pants3.webp",
+            "title": "Slim Fit Pants",
+            "price": "32.00",
+            "colors": ["Black", "Sky Blue"],
+            "description": "The Slim Fit Sky Blue Pants are designed for durability, offering resistance to shrinking, tearing, and fading even with prolonged use and exposure to the sun. These pants maintain their perfect fit and vibrant color, ensuring they stay comfortable and stylish no matter the conditions. Available in black and blue.",
+            "warranty": "1-year warranty. If you experience any issues with quality, we offer a replacement or full refund."
+        },
+        {
+            "image": "./images/pants4.webp",
+            "title": "Dark Formal Pants",
+            "price": "40.00",
+            "colors": ["Grey", "Black"],
+            "description": "Our Dark Grey Formal Pants are made with durable fabric designed to withstand the rigors of daily wear. Resistant to fading, shrinking, and tearing, these pants retain their sleek look even under sunlight. Perfect for business or formal events, they offer long-lasting comfort and style without compromise.",
+            "warranty": "1-year warranty. Any defects in material or craftsmanship will be replaced or refunded."
+        },
+        {
+            "image": "./images/pants5.webp",
+            "title": "Casual Pants",
+            "price": "28.00",
+            "colors": ["Grey", "Beige"],
+            "description": "These Casual Grey Pants are made from strong, resilient fabric that resists fading, shrinking, and tearing. Perfect for relaxed days, they offer durability and comfort, maintaining their color and fit despite prolonged use. Available in brown and beige, they are both stylish and long-lasting.",
+            "warranty": "1-year warranty. We offer a replacement or refund for any defective items."
+        },
+        {
+            "image": "./images/pants6.webp",
+            "title": "Formal Pants",
+            "price": "33.00",
+            "colors": ["White", "Black"],
+            "description": "Sophisticated Formal Black Pants designed for durability. They are resistant to shrinking, fading, and wear, even with continuous use. Perfect for business or evening wear, they retain their shape and color. Available in white and black, they offer a perfect blend of elegance and practicality.",
+            "warranty": "1-year warranty. Any defects will be covered by replacement or refund."
+        }
+    ],
+    "shirts": [
+        {
+            "image": "./images/shirt1.webp",
+            "title": "Elegant Shirt",
+            "price": "20.00",
+            "colors": ["Sky Blue", "White"],
+            "description": "This Elegant White Shirt is designed for longevity, made from resilient fabric that resists shrinking, fading, and tearing. Ideal for long days under the sun or constant use, it keeps its pristine appearance. Available in both white and black, it offers both style and durability for any occasion.",
+            "warranty": "1-year warranty. Any defects in material or stitching will be replaced or refunded."
+        },
+        {
+            "image": "./images/shirt2.webp",
+            "title": "Casual Slim Fit Shirt",
+            "price": "25.00",
+            "colors": ["Sky Blue", "White"],
+            "description": "The Casual White Slim Fit Shirt is built to last, featuring durable fabric that resists fading, shrinking, and wear. Comfortable for everyday use and designed for the sun, this shirt keeps its form and color no matter the weather. Available in blue and white, it combines style with practicality.",
+            "warranty": "1-year warranty. We will replace or refund any defective shirts."
+        },
+        {
+            "image": "./images/shirt3.webp",
+            "title": "Slim Fit Shirt",
+            "price": "22.00",
+            "colors": ["Sky Blue", "White"],
+            "description": "Our Slim Fit Shirt is crafted for durability, resistant to fading, shrinking, and tearing, even after extensive use. Whether worn casually or for business, this shirt maintains its fit and vibrant colors, standing up to exposure to the sun and wear. Available in red and white, it’s both practical and stylish.",
+            "warranty": "1-year warranty. Defective shirts will be replaced or refunded."
+        },
+        {
+            "image": "./images/shirt4.webp",
+            "title": "Elastic Slim Fit Shirt",
+            "price": "27.00",
+            "colors": ["Sky Blue", "White"],
+            "description": "The Elastic Slim Fit Shirt combines comfort and durability, made from flexible, long-lasting fabric that resists shrinking, fading, and tearing. Perfect for active use, it retains its color and shape even after extended exposure to the sun. Available in black and green, this shirt provides style and lasting wearability.",
+            "warranty": "1-year warranty. If any defects are found, we will replace or refund the shirt."
+        },
+        {
+            "image": "./images/shirt5.webp",
+            "title": "Short Slim Fit Plastic Shirt",
+            "price": "24.00",
+            "colors": ["Sky Blue", "White"],
+            "description": "The Short Slim Fit Plastic Shirt is designed for durability and comfort. Crafted from strong, lightweight material, it resists fading, wear, and tearing. Ideal for warm weather, it keeps its shape and color, even after frequent exposure to sunlight. Available in blue and grey, it combines fashion and function.",
+            "warranty": "1-year warranty. Any defects will be replaced or refunded."
+        },
+        {
+            "image": "./images/shirt6.webp",
+            "title": "Classic Shirt",
+            "price": "21.00",
+            "colors": ["Sky Blue", "White"],
+            "description": "The Classic White Shirt is made from durable fabric, resistant to wear, fading, and shrinking. Designed to maintain its shape and color even with regular use, this shirt is perfect for everyday wear. Available in black and white, it offers a classic look with long-lasting durability.",
+            "warranty": "1-year warranty. If defective, we offer a replacement or refund."
+        }
+    ],
+    "belts": [
+        {
+            "image": "./images/belt1.webp",
+            "title": "Leather Belt",
+            "price": "15.00",
+            "colors": ["Brown", "Black"],
+            "description": "The Leather Black Belt is a durable, classic accessory made from high-quality leather, perfect for everyday use. Resistant to wear and fading, it maintains its shape and color under daily conditions. The belt is tough enough to withstand long-term use, offering both style and longevity. Available in brown and black.",
+            "warranty": "1-year warranty. If any defects are found, we will replace or refund the item."
+        },
+        {
+            "image": "./images/belt2.webp",
+            "title": "Leather Double Belt",
+            "price": "17.00",
+            "colors": ["Black", "Brown"],
+            "description": "The Leather Brown Belt is stylish, made with resilient leather that resists fading, wear, and tearing. Designed to withstand constant use, it retains its strength and color over time. Perfect for any outfit, it combines durability with a refined, classic look. Available in black and red.",
+            "warranty": "1-year warranty. Any manufacturing defects will be covered by a replacement or refund."
+        },
+        {
+            "image": "./images/belt3.webp",
+            "title": "Formal Belt",
+            "price": "12.00",
+            "colors": ["Dark Grey", "White"],
+            "description": "The White Formal Belt is crafted from strong materials, ensuring it won’t fade, tear, or shrink with use. Its durable construction offers long-lasting wear, keeping its form and color intact even with sun exposure. Perfect for formal occasions, it’s available in blue and brown.",
+            "warranty": "1-year warranty. If you encounter any defects, we offer a replacement or full refund."
+        },
+        {
+            "image": "./images/belt4.webp",
+            "title": "Chocolate Belt",
+            "price": "19.00",
+            "colors": ["Brown", "Dark Brown"],
+            "description": "The Chocolate Belt is a durable and stylish accessory, resistant to fading, shrinking, and tearing. Its resilient material withstands daily wear, offering long-lasting functionality and style. Available in black and white, it adds a sophisticated touch to both casual and formal outfits.",
+            "warranty": "1-year warranty. Defective belts will be replaced or refunded."
+        },
+        {
+            "image": "./images/belt5.webp",
+            "title": "Black and Grey Belt",
+            "price": "18.00",
+            "colors": ["Grey", "Black"],
+            "description": "This Black and Grey Belt is crafted from durable materials to resist fading and wear. Ideal for daily use, it retains its strength and appearance, even after extended exposure to sunlight. Versatile and stylish, it pairs well with any outfit. Available in grey and black.",
+            "warranty": "1-year warranty. Any defects will be replaced or refunded."
+        },
+        {
+            "image": "./images/belt6.webp",
+            "title": "Squeeze Belt",
+            "price": "16.00",
+            "colors": ["Brown", "Mustard"],
+            "description": "The Brown Coffee Belt is made from durable materials designed to withstand daily wear. Resistant to fading and shrinking, it keeps its shape and color intact even after extensive use. Perfect for casual wear, it adds a touch of sophistication to any look. Available in brown and blue.",
+            "warranty": "1-year warranty. Defective belts will be replaced or refunded."
+        }
+    ],
+    "shoes": [
+        {
+            "image": "./images/shoes1.webp",
+            "title": "Elegant Shoes",
+            "price": "50.00",
+            "colors": ["Black", "Brown"],
+            "description": "Elegant Brown Shoes made from premium leather, offering excellent durability. Resistant to wear and fading, they maintain their comfort and shape after prolonged use. Ideal for formal occasions, they’re built to last and endure long walks. Available in black and white.",
+            "warranty": "1-year warranty. Any defects in the shoes will be replaced or refunded."
+        },
+        {
+            "image": "./images/shoes2.webp",
+            "title": "Vintage Shoes",
+            "price": "45.00",
+            "colors": ["Black", "Brown"],
+            "description": "Casual Sporty Shoes designed for durability, these shoes offer long-lasting comfort without compromising on style. Resistant to fading, wear, and tearing, they keep their vibrant color and form even with frequent use. Available in green and blue, they’re perfect for active wear.",
+            "warranty": "1-year warranty. Defective shoes will be replaced or refunded."
+        },
+        {
+            "image": "./images/shoes3.webp",
+            "title": "Modern Shoes",
+            "price": "55.00",
+            "colors": ["Brown", "Black"],
+            "description": "Our Red Sports Shoes are designed to offer both durability and comfort. With a resistance to fading and wear, these shoes are made for long-term use, maintaining their color and form after extended exposure. Perfect for sports or casual wear, available in red and black.",
+            "warranty": "1-year warranty. Any defects in the material will be covered by replacement or refund."
+        },
+        {
+            "image": "./images/shoes4.webp",
+            "title": "Classic Formal Shoes",
+            "price": "40.00",
+            "colors": ["Black", "Dark Brown"],
+            "description": "Black Slip-On Shoes made from durable materials, offering lasting comfort and style. Designed to withstand wear and fading, they retain their look even after long-term use. Perfect for casual or formal outfits, available in black and grey.",
+            "warranty": "1-year warranty. Any defects will be replaced or refunded."
+        },
+        {
+            "image": "./images/shoes5.webp",
+            "title": "Casual Sneakers",
+            "price": "60.00",
+            "colors": ["Brown", "Black"],
+            "description": "White Running Shoes made for endurance and comfort. Crafted from strong materials, they resist fading, shrinking, and wear, even with frequent exposure to sunlight. Perfect for long runs or daily activities, available in white and black.",
+            "warranty": "1-year warranty. Defective shoes will be replaced or refunded."
+        },
+        {
+            "image": "./images/shoes6.webp",
+            "title": "HidroGel Shoes",
+            "price": "50.00",
+            "colors": ["Light Brown", "Black"],
+            "description": "Sporty Blue Shoes, built for durability and comfort. These shoes resist fading, tearing, and wear, offering long-lasting support for sports or casual use. Available in blue and black, they combine style with endurance for any activity.",
+            "warranty": "1-year warranty. Any defects will be covered by replacement or refund."
+        }
+    ]
+}
