@@ -284,7 +284,6 @@ dialog{
     width: 90%;
     max-width: 30rem;
     position: fixed;
-    /* top: 35%; */
     top: 50%;
     bottom: 50%;
     transform: translate(0%, -50%);
@@ -359,8 +358,8 @@ dialog button{
 #clothesContainer img{
     width: 100%;
     height: auto;
-    max-width: 400px;
-    max-height: 500px;
+    max-width: 250px;
+    max-height: 320px;
     margin-top: 1.5rem;
     cursor: pointer;
 }
