@@ -200,6 +200,7 @@
         max-width: 300px;
         max-height: 400px;
         transition: transform 0.3s ease;
+        margin-bottom: .9rem;
     }
 
     #clothesContainer img:hover { 

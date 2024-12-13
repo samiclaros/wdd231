@@ -329,6 +329,7 @@ dialog button{
     display: block;
     justify-content: center;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .menu button{
@@ -392,3 +393,36 @@ footer .socialMedia_images{
     margin-top: 1rem;
 }
 
+
+/* // Landscape mode */
+
+@media screen and (min-width: 769px){
+
+    /* HOME */
+
+    
+
+    /* STORE */
+
+    #clothesContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: .5rem;
+        align-items: center;
+        margin-top: 1rem;
+    };
+
+    .socialMedia_images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .socialMedia_images a{
+        padding: 0 .7rem;
+    }
+}
