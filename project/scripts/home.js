@@ -101,7 +101,7 @@ const salesDetails = document.querySelector("#salesDetails");
 function displaySalesDetails(info) {
     salesDetails.innerHTML = `
       <button id="closeModal">X</button>
-      <h2>Name: ${info.name}</h2>
+      <h2>${info.name}</h2>
       <h3>Discount: ${info.discount}</h3>
       <p><strong>Price</strong>: ${info.price}</p>
       <p>Description: ${info.description}</p>
