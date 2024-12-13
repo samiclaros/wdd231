@@ -12,6 +12,12 @@
 
     /* HEADER */
 
+    body{
+        max-width: 90rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     header { 
         display: grid;
         grid-template-columns: .1fr 1fr 1fr;
@@ -175,6 +181,11 @@
         padding-left: 4rem;
         padding-right: 4rem;
         margin-top: 4rem;
+    }
+
+    .menu button{
+        width: 50%;
+        justify-self: center;
     }
 
     #clothesContainer{

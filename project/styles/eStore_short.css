@@ -11,18 +11,15 @@
 *{
     padding: 0;
     box-sizing: border-box;
-    max-width: 90rem;
     margin: 0 auto;
 }
 
 body{
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
-}
-
-body{
     border-right: 2px solid var(--backgroungHaF2);
     border-left: 2px solid var(--backgroungHaF2);
+    max-width: 100%;
 }
 
 header{
@@ -329,9 +326,9 @@ dialog button{
 /* STORE */
 
 .menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     justify-content: center;
+    text-align: center;
 }
 
 .menu button{
