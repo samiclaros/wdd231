@@ -70,8 +70,8 @@ function displayContent(category, productsData){
 		image.setAttribute("src", product.image); 
 		image.setAttribute("alt", `Image of ${product.title}`); 
 
-		image.setAttribute("width", "2500"); 
-		image.setAttribute("height", "400"); 
+		image.setAttribute("width", "250"); 
+		image.setAttribute("height", "350"); 
 
 		if (index !== 0) {
 			image.setAttribute("loading", "lazy");
