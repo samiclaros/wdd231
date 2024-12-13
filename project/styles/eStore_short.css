@@ -390,11 +390,8 @@ footer{
     text-align: center;
 }
 
-footer .info_left{
-    margin-top: .5rem;
-}
-
 footer .socialMedia_images{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
