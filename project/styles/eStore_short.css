@@ -157,26 +157,27 @@ a {
 
 .customer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "deliveryImg deliveryText"
-        "creditCardText creditCardImg"
+        "creditCardImg creditCardText"
         "guaranteeImg guaranteeText";
     row-gap: 1rem;
     align-items: center;
     text-align: justify;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-top: 1rem;
 }
 
 .deliveryImg, .creditCardImg, .guaranteeImg {
-    width: 40%;
+    width: 50px;
     height: auto;
+    padding: .2rem;
 }
 
 .deliveryText, .creditCardText, .guaranteeText {
     font-size: 1rem;
+    padding: .5rem;
 }
 
 .deliveryImg {
@@ -263,12 +264,15 @@ a {
 .ctaHome{
     display: flex;
     flex-direction: column;
-    justify-self: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
     background-color: var(--backgroungHaF2);
     border: none;
-    width: 63%;
+    width: 85%;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
 }
 
 /* MODAL */
@@ -382,47 +386,41 @@ dialog button{
 /* FOOTER */
 
 footer{
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: var(--backgroungHaF2);
     color: white;
     padding: 1rem;
-    text-align: center;
+    text-align: end;
+    align-items: center;
 }
 
-footer .socialMedia_images{
+.socialMedia_images{
+    grid-column: 1/2;
+    grid-row: 1/3;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    align-items: center;
+    align-content: center;
 }
 
+.socialMedia_images a{
+    margin: 1rem 0;
+    display: block;
+}
 
-/* // Landscape mode */
+.info_left{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 
-@media screen and (min-width: 769px){
+.info_right{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
-    /* HOME */
-
-    
-
-    /* STORE */
-
-    #clothesContainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: .5rem;
-        align-items: center;
-        margin-top: 1rem;
-    };
-
-    .socialMedia_images{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .socialMedia_images a{
-        padding: 0 .7rem;
-    }
+.info_left p, .info_right p{
+    padding: .2rem;
 }

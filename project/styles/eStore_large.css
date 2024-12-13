@@ -1,4 +1,4 @@
-@media screen and (min-width: 56.25rem){
+@media screen and (min-width: 1200px){
 
     :root{
         --backgroungHaF1: #283e06;
@@ -94,21 +94,21 @@
     }
 
     .customer {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            "deliveryImg deliveryText creditCardImg creditCardText guaranteeImg guaranteeText";
+        grid-template-areas: 
+        "deliveryImg deliveryText creditCardImg creditCardText guaranteeImg guaranteeText";
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
     
     .deliveryImg, .creditCardImg, .guaranteeImg {
-        width: 30%;
+        width: 80px;
         height: auto;
     }
 
     .deliveryText, .creditCardText, .guaranteeText {
         font-size: 1.2rem;
         padding: 1rem;
+        text-align: left;
     }
 
     .blackFriday{
@@ -151,6 +151,7 @@
     
     .model button{
         transition: transform 0.3s ease;
+        font-size: 1.3rem;
     }
 
     .model section:hover img{
@@ -168,9 +169,7 @@
     .ctaHome{
         width: 30%;
         height: 90px;
-        font-weight: bold;
         font-size: 2rem;
-        justify-content: center;
     }
 
     /* STORE */
@@ -212,11 +211,27 @@
     /* MODAL */
 
     footer{
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 1.1rem;
+        text-align: center;
         padding: 1rem;
+    }
+
+    .info_left{
+        grid-column: 1/2;
+    }
+    
+    .info_right{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+
+    .socialMedia_images{
+        display: flex;
+        grid-column: 2/3;
+        justify-content: center;
         align-items: center;
-        margin-top: 1rem;
     }
 
     footer p{

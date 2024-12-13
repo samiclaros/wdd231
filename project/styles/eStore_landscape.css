@@ -1,0 +1,130 @@
+@media screen and (min-width: 769px) and (max-width: 1200px){
+
+    
+    header { 
+        display: grid;
+        grid-template-columns: .1fr 1fr 1fr;
+        background-color: var(--backgroungHaF2);
+        position: relative;
+    }
+
+    header img{
+        width: 80px;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .navigation a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+        width: 100%;
+        padding: 1.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .navigation a.active {
+        border-bottom: 10px solid white;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .phrase{
+        font-size: 1.5rem;
+    }
+
+    .authorPhrase{
+        font-size: 1rem;
+        margin-top: .8rem;
+    }
+
+    .deliveryImg {
+        grid-area: deliveryImg;
+        width: 70px;
+    }
+    
+    .deliveryText {
+        grid-area: deliveryText;
+        font-size: 1.2rem;
+    }
+    
+    .creditCardText {
+        grid-area: creditCardText;
+        font-size: 1.2rem;
+    }
+    
+    .creditCardImg {
+        grid-area: creditCardImg;
+        width: 70px;
+    }
+    
+    .guaranteeImg {
+        grid-area: guaranteeImg;
+        width: 70px;
+    }
+    
+    .guaranteeText {
+        grid-area: guaranteeText;
+        font-size: 1.2rem;
+    }
+
+    .blackFriday p{
+        font-size: 1.5rem;
+    }
+
+    .ctaHome{
+        width: 33%;
+        height: 70px;
+        /* font-weight: bold; */
+        font-size: 2rem;
+        justify-content: center;
+    }
+
+
+    #clothesContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 1rem;
+        align-items: center;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .socialMedia_images{
+        display: flex;
+        grid-column: 2/3;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .socialMedia_images a{
+        padding: 0 .7rem;
+    }
+
+    .info_left{
+        grid-column: 1/2;
+    }
+    
+    .info_right{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+}
