@@ -284,8 +284,13 @@ dialog{
     width: 90%;
     max-width: 30rem;
     position: fixed;
-    top: 35%;
+    /* top: 35%; */
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0%, -50%);
     color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 
 dialog h2{
@@ -308,11 +313,14 @@ dialog p{
 
 dialog button{
     position: absolute;
-    bottom: 79%;
-    right: 3%;
+    /* bottom: 79%;
+    right: 3%; */
+    top: 1rem;
+    right: 1rem;
     padding: .5rem 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
 }
 
 /* MODAL */
@@ -354,6 +362,7 @@ dialog button{
     max-width: 400px;
     max-height: 500px;
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 #clothesContainer h2{

@@ -188,6 +188,11 @@
         height: auto;
         max-width: 300px;
         max-height: 400px;
+        transition: transform 0.3s ease;
+    }
+
+    #clothesContainer img:hover { 
+        transform: scale(1.05); 
     }
 
     /* STORE */
