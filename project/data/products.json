@@ -1,7 +1,7 @@
 {
     "pants": [
         {
-            "image": "./images/pants1.webp",
+            "image": "images/pants1.webp",
             "title": "Classic Pants",
             "price": "30.00",
             "colors": ["Grey", "Blue", "Black"],
@@ -9,7 +9,7 @@
             "warranty": "1-year warranty. If any defects are found, we will replace or refund the item."
         },
         {
-            "image": "./images/pants2.webp",
+            "image": "images/pants2.webp",
             "title": "Eco-Friendly Pants",
             "price": "35.00",
             "colors": ["Blue", "Black"],
@@ -17,7 +17,7 @@
             "warranty": "1-year warranty. Any manufacturing defects will be covered by a replacement or refund."
         },
         {
-            "image": "./images/pants3.webp",
+            "image": "images/pants3.webp",
             "title": "Slim Fit Pants",
             "price": "32.00",
             "colors": ["Black", "Sky Blue"],
@@ -25,7 +25,7 @@
             "warranty": "1-year warranty. If you experience any issues with quality, we offer a replacement or full refund."
         },
         {
-            "image": "./images/pants4.webp",
+            "image": "images/pants4.webp",
             "title": "Dark Formal Pants",
             "price": "40.00",
             "colors": ["Grey", "Black"],
@@ -33,7 +33,7 @@
             "warranty": "1-year warranty. Any defects in material or craftsmanship will be replaced or refunded."
         },
         {
-            "image": "./images/pants5.webp",
+            "image": "images/pants5.webp",
             "title": "Casual Pants",
             "price": "28.00",
             "colors": ["Grey", "Beige"],
@@ -41,7 +41,7 @@
             "warranty": "1-year warranty. We offer a replacement or refund for any defective items."
         },
         {
-            "image": "./images/pants6.webp",
+            "image": "images/pants6.webp",
             "title": "Formal Pants",
             "price": "33.00",
             "colors": ["White", "Black"],
@@ -51,7 +51,7 @@
     ],
     "shirts": [
         {
-            "image": "./images/shirt1.webp",
+            "image": "images/shirt1.webp",
             "title": "Elegant Shirt",
             "price": "20.00",
             "colors": ["Sky Blue", "White"],
@@ -59,7 +59,7 @@
             "warranty": "1-year warranty. Any defects in material or stitching will be replaced or refunded."
         },
         {
-            "image": "./images/shirt2.webp",
+            "image": "images/shirt2.webp",
             "title": "Casual Slim Fit Shirt",
             "price": "25.00",
             "colors": ["Sky Blue", "White"],
@@ -67,7 +67,7 @@
             "warranty": "1-year warranty. We will replace or refund any defective shirts."
         },
         {
-            "image": "./images/shirt3.webp",
+            "image": "images/shirt3.webp",
             "title": "Slim Fit Shirt",
             "price": "22.00",
             "colors": ["Sky Blue", "White"],
@@ -75,7 +75,7 @@
             "warranty": "1-year warranty. Defective shirts will be replaced or refunded."
         },
         {
-            "image": "./images/shirt4.webp",
+            "image": "images/shirt4.webp",
             "title": "Elastic Slim Fit Shirt",
             "price": "27.00",
             "colors": ["Sky Blue", "White"],
@@ -83,7 +83,7 @@
             "warranty": "1-year warranty. If any defects are found, we will replace or refund the shirt."
         },
         {
-            "image": "./images/shirt5.webp",
+            "image": "images/shirt5.webp",
             "title": "Short Slim Fit Plastic Shirt",
             "price": "24.00",
             "colors": ["Sky Blue", "White"],
@@ -91,7 +91,7 @@
             "warranty": "1-year warranty. Any defects will be replaced or refunded."
         },
         {
-            "image": "./images/shirt6.webp",
+            "image": "images/shirt6.webp",
             "title": "Classic Shirt",
             "price": "21.00",
             "colors": ["Sky Blue", "White"],
@@ -101,7 +101,7 @@
     ],
     "belts": [
         {
-            "image": "./images/belt1.webp",
+            "image": "images/belt1.webp",
             "title": "Leather Belt",
             "price": "15.00",
             "colors": ["Brown", "Black"],
@@ -109,7 +109,7 @@
             "warranty": "1-year warranty. If any defects are found, we will replace or refund the item."
         },
         {
-            "image": "./images/belt2.webp",
+            "image": "images/belt2.webp",
             "title": "Leather Double Belt",
             "price": "17.00",
             "colors": ["Black", "Brown"],
@@ -117,7 +117,7 @@
             "warranty": "1-year warranty. Any manufacturing defects will be covered by a replacement or refund."
         },
         {
-            "image": "./images/belt3.webp",
+            "image": "images/belt3.webp",
             "title": "Formal Belt",
             "price": "12.00",
             "colors": ["Dark Grey", "White"],
@@ -125,7 +125,7 @@
             "warranty": "1-year warranty. If you encounter any defects, we offer a replacement or full refund."
         },
         {
-            "image": "./images/belt4.webp",
+            "image": "images/belt4.webp",
             "title": "Chocolate Belt",
             "price": "19.00",
             "colors": ["Brown", "Dark Brown"],
@@ -133,7 +133,7 @@
             "warranty": "1-year warranty. Defective belts will be replaced or refunded."
         },
         {
-            "image": "./images/belt5.webp",
+            "image": "images/belt5.webp",
             "title": "Black and Grey Belt",
             "price": "18.00",
             "colors": ["Grey", "Black"],
@@ -141,7 +141,7 @@
             "warranty": "1-year warranty. Any defects will be replaced or refunded."
         },
         {
-            "image": "./images/belt6.webp",
+            "image": "images/belt6.webp",
             "title": "Squeeze Belt",
             "price": "16.00",
             "colors": ["Brown", "Mustard"],
@@ -151,7 +151,7 @@
     ],
     "shoes": [
         {
-            "image": "./images/shoes1.webp",
+            "image": "images/shoes1.webp",
             "title": "Elegant Shoes",
             "price": "50.00",
             "colors": ["Black", "Brown"],
@@ -159,7 +159,7 @@
             "warranty": "1-year warranty. Any defects in the shoes will be replaced or refunded."
         },
         {
-            "image": "./images/shoes2.webp",
+            "image": "images/shoes2.webp",
             "title": "Vintage Shoes",
             "price": "45.00",
             "colors": ["Black", "Brown"],
@@ -167,7 +167,7 @@
             "warranty": "1-year warranty. Defective shoes will be replaced or refunded."
         },
         {
-            "image": "./images/shoes3.webp",
+            "image": "images/shoes3.webp",
             "title": "Modern Shoes",
             "price": "55.00",
             "colors": ["Brown", "Black"],
@@ -175,7 +175,7 @@
             "warranty": "1-year warranty. Any defects in the material will be covered by replacement or refund."
         },
         {
-            "image": "./images/shoes4.webp",
+            "image": "images/shoes4.webp",
             "title": "Classic Formal Shoes",
             "price": "40.00",
             "colors": ["Black", "Dark Brown"],
@@ -183,7 +183,7 @@
             "warranty": "1-year warranty. Any defects will be replaced or refunded."
         },
         {
-            "image": "./images/shoes5.webp",
+            "image": "images/shoes5.webp",
             "title": "Casual Sneakers",
             "price": "60.00",
             "colors": ["Brown", "Black"],
@@ -191,7 +191,7 @@
             "warranty": "1-year warranty. Defective shoes will be replaced or refunded."
         },
         {
-            "image": "./images/shoes6.webp",
+            "image": "images/shoes6.webp",
             "title": "HidroGel Shoes",
             "price": "50.00",
             "colors": ["Light Brown", "Black"],
