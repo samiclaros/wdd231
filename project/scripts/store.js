@@ -59,7 +59,7 @@ async function getProductsData(url) {
 function displayContent(category, productsData){
 	const products = productsData[category]; 
 	clothesContainer.innerHTML = '';
-	products.forEach(product => { 
+	products.forEach((product, index) => { 
 		let card = document.createElement("section"); 
 		let productName = document.createElement("h2"); 
 		let image = document.createElement("img"); 
@@ -69,9 +69,14 @@ function displayContent(category, productsData){
 		productName.textContent = product.title; 
 		image.setAttribute("src", product.image); 
 		image.setAttribute("alt", `Image of ${product.title}`); 
-		image.setAttribute("loading", "lazy"); 
+
 		image.setAttribute("width", "400"); 
 		image.setAttribute("height", "500"); 
+
+		if (index !== 0) {
+			image.setAttribute("loading", "lazy");
+		}
+
 		price.textContent = `Price: $${product.price}`; 
 		colors.textContent = `Available Colors: ${product.colors.join(', ')}`; 
 
