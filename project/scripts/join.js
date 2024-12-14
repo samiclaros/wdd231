@@ -76,59 +76,27 @@ showInfo.innerHTML = `
     </table>`;
 
 // Datetimenow
-// document.addEventListener('DOMContentLoaded', () => {
-    
-//     const currentDateLocalStorage = new Date();
-//     const msToDays = 86400000;
-
-//     const lastVisit = localStorage.getItem("lastVisit");
-//     const visitMessageElement = document.querySelector("#visits");
-
-//     if (!lastVisit) {
-//         visitMessageElement.textContent = "Welcome! Let us know if you have any questions.";
-//     } else {
-//         const lastVisitDate = new Date(lastVisit);
-//         const daysSinceLastVisit = Math.round((currentDateLocalStorage - lastVisitDate) / msToDays);
-
-//         if (daysSinceLastVisit < 1) {
-//             visitMessageElement.textContent = "Back so soon! Awesome!";
-//         } else {
-//             visitMessageElement.textContent = `You last visited was ${daysSinceLastVisit} days ago.`;
-//         }
-//     }
-
-//     localStorage.setItem('lastVisit', currentDateLocalStorage.toISOString());
-// });
-
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("DOM fully loaded and parsed");
-
-    // Datetimenow
+    
     const currentDateLocalStorage = new Date();
-    console.log("Current Date:", currentDateLocalStorage);
     const msToDays = 86400000;
 
     const lastVisit = localStorage.getItem("lastVisit");
-    console.log("Last Visit:", lastVisit);
     const visitMessageElement = document.querySelector("#visits");
 
     if (!lastVisit) {
         visitMessageElement.textContent = "Welcome! Let us know if you have any questions.";
-        console.log("First visit message set");
     } else {
         const lastVisitDate = new Date(lastVisit);
         const daysSinceLastVisit = Math.round((currentDateLocalStorage - lastVisitDate) / msToDays);
-        console.log("Days Since Last Visit:", daysSinceLastVisit);
 
         if (daysSinceLastVisit < 1) {
             visitMessageElement.textContent = "Back so soon! Awesome!";
-            console.log("Back so soon message set");
         } else {
             visitMessageElement.textContent = `You last visited was ${daysSinceLastVisit} days ago.`;
-            console.log("Last visit days message set");
         }
     }
 
     localStorage.setItem('lastVisit', currentDateLocalStorage.toISOString());
-    console.log("Last visit date set in localStorage");
 });
+

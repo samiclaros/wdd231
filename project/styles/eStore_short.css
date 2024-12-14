@@ -584,6 +584,10 @@ footer{
     align-items: center;
 }
 
+.attributions a{
+    color: black;
+}
+
 .socialMedia_images{
     grid-column: 1/2;
     grid-row: 1/3;
