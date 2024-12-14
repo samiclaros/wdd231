@@ -23,3 +23,56 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
 	hamButton.classList.toggle('open');
 });
+
+// Local Storage
+
+const currentURL = window.location.href;
+const everything = currentURL.split('?');
+let formData = everything[1].split('&');
+
+function show(cup){
+    let result = '';
+    formData.forEach((element) => {
+        if (element.startsWith(cup)) {
+            result = decodeURIComponent(element.split('=')[1].replace(/\+/g, ' '));
+        }
+    });
+    return (result);
+};
+
+function formatTimestamp(timestamp) {
+    const date = new Date();
+    return new Intl.DateTimeFormat('en-US', {
+        dateStyle: 'long',
+        timeStyle: 'short',
+    }).format(date);
+}
+
+const showInfo = document.querySelector("#results");
+
+showInfo.innerHTML = `
+    <h2>Thank you for your Subscription. We appreciate your visit and we will contact you soon!</h2>
+    <table>
+        <tr>
+            <td>Subscription For:</td>
+            <td>${show('firstName')} ${show('lastName')}</td>
+        </tr>
+        <tr>
+            <td>Email Address:</td>
+            <td>${show('email')}</td>
+        </tr>
+        <tr>
+            <td>Mobile Phone Number:</td>
+            <td>${show('phone')}</td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td>${show('description')}</td>
+        </tr>
+        <tr>
+            <td>Date & Time:</td>
+            <td>${formatTimestamp()}</td>
+        </tr>
+    </table>`;
+
+

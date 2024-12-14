@@ -383,6 +383,193 @@ dialog button{
 
 /* STORE */
 
+/* JOIN */
+
+.joinContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.joinTitle{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form h2{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--backgroungHaF2);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-right: 3px solid var(--backgroungHaF2);
+    border-left: 3px solid var(--backgroungHaF2);
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    padding: 1rem;
+    border: 1px solid var(--backgroungHaF2);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input:required,
+form select:required:invalid,
+form textarea:required:invalid,
+form input[type="text"]:required:invalid,
+form input[type="email"]:required:invalid,
+form input[type="tel"]:required:invalid,
+form input[type="hidden"]:required:invalid {
+    border-bottom: solid 4px red;
+}
+
+form input:required:valid,
+form select:required:valid,
+form input[type="text"]:required:valid,
+form input[type="email"]:required:valid,
+form input[type="tel"]:required:valid,
+form input[type="hidden"]:required:valid{
+    border-bottom: solid 4px green;
+}
+
+input[type="submit"]{
+    padding: 1rem;
+    background-color: var(--backgroungHaF2);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form input[type="submit"]:hover { 
+    background-color: rgba(224, 224, 224, 0.9);
+    color: var(--backgroungHaF2);
+}
+
+/* PURPOSE */
+
+.purpose{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+.purpose h2{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.purpose img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.myMission{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.myMission2{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.myMission3{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.signature{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.signature2{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* THANKYOU */
+
+.results{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    /* width: 90%;
+    max-width: 500px; */
+}
+
+.results h2{
+    color: var(--subTitle2);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.results table{
+    width: 100%;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 500px;
+    border: 3px solid var(--backgroungHaF2);
+}
+
+.results table tr:nth-child(even) {
+    background-color: var(--backgroungHaF2);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.results table tr td{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* JOIN */
+
 /* FOOTER */
 
 footer{

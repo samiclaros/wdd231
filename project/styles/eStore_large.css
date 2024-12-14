@@ -206,6 +206,27 @@
         transform: scale(1.05); 
     }
 
+    /* JOIN */
+
+    .joinContainer{
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        align-items: center;
+        padding: 2rem;
+        padding-right: 4rem;
+    }
+
+    form{
+        grid-column: 1/2;
+    }
+
+    .purpose{
+        grid-column: 2/3;
+    }
+
+    /* JOIN */
+
+
     /* STORE */
     
     /* MODAL */
@@ -231,7 +252,6 @@
         display: flex;
         grid-column: 2/3;
         justify-content: center;
-        align-items: center;
     }
 
     footer p{

@@ -90,12 +90,20 @@
         justify-content: center;
     }
 
+    /* STORE */
 
     #clothesContainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
+    /* STORE */
+    
+    /* JOIN */
+
+    
+
+    /* JOIN */
 
     footer{
         display: grid;
