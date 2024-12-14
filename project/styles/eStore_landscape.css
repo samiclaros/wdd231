@@ -101,7 +101,10 @@
     
     /* JOIN */
 
-    
+    .myMission, .myMission2, .myMission3, .signature, .signature2{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 
     /* JOIN */
 
