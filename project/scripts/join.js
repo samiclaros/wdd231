@@ -74,5 +74,3 @@ showInfo.innerHTML = `
             <td>${formatTimestamp()}</td>
         </tr>
     </table>`;
-
-// Datetimenow
